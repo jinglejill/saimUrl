@@ -17,6 +17,400 @@
 		EFB86E3F20C0D6B80011AF78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB86E3E20C0D6B80011AF78 /* main.m */; };
 		EFB86E4920C0D6B80011AF78 /* saimUrlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB86E4820C0D6B80011AF78 /* saimUrlTests.m */; };
 		EFB86E5420C0D6B80011AF78 /* saimUrlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB86E5320C0D6B80011AF78 /* saimUrlUITests.m */; };
+		EFB86FF320C0D6CF0011AF78 /* saimTransactinLog20180314.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6220C0D6CE0011AF78 /* saimTransactinLog20180314.log */; };
+		EFB86FF420C0D6CF0011AF78 /* receipt.html in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6320C0D6CE0011AF78 /* receipt.html */; };
+		EFB86FF520C0D6CF0011AF78 /* contentpush.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6420C0D6CE0011AF78 /* contentpush.php */; };
+		EFB86FF620C0D6CF0011AF78 /* SAIMReceiptProductItemPreOrder.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6520C0D6CE0011AF78 /* SAIMReceiptProductItemPreOrder.php */; };
+		EFB86FF720C0D6CF0011AF78 /* blankSignature2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6620C0D6CE0011AF78 /* blankSignature2.png */; };
+		EFB86FF820C0D6CF0011AF78 /* SAIMSalesSummaryByPeriodGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6720C0D6CE0011AF78 /* SAIMSalesSummaryByPeriodGet.php */; };
+		EFB86FF920C0D6CF0011AF78 /* SAIMProductDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6820C0D6CE0011AF78 /* SAIMProductDelete.php */; };
+		EFB86FFA20C0D6CF0011AF78 /* SAIMProductSalesDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6920C0D6CE0011AF78 /* SAIMProductSalesDelete.php */; };
+		EFB86FFB20C0D6CF0011AF78 /* SAIMReceiptProductItemAndProductUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6A20C0D6CE0011AF78 /* SAIMReceiptProductItemAndProductUpdate.php */; };
+		EFB86FFC20C0D6CF0011AF78 /* saimTransactinLog20180315.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6B20C0D6CE0011AF78 /* saimTransactinLog20180315.log */; };
+		EFB86FFD20C0D6CF0011AF78 /* sendEmail.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6C20C0D6CE0011AF78 /* sendEmail.php */; };
+		EFB86FFE20C0D6CF0011AF78 /* testJsonEncodeThai.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6D20C0D6CE0011AF78 /* testJsonEncodeThai.php */; };
+		EFB86FFF20C0D6CF0011AF78 /* SAIMReceiptProductItemUnpost.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6E20C0D6CE0011AF78 /* SAIMReceiptProductItemUnpost.php */; };
+		EFB8700020C0D6CF0011AF78 /* SAIMSettingUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E6F20C0D6CE0011AF78 /* SAIMSettingUpdate.php */; };
+		EFB8700120C0D6CF0011AF78 /* SAIMReceiptAndProductBuyInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7020C0D6CE0011AF78 /* SAIMReceiptAndProductBuyInsert.php */; };
+		EFB8700220C0D6CF0011AF78 /* SAIMMasterGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7120C0D6CE0011AF78 /* SAIMMasterGet.php */; };
+		EFB8700320C0D6CF0011AF78 /* SAIMUserAccountUpdateMenuExtra0.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7220C0D6CE0011AF78 /* SAIMUserAccountUpdateMenuExtra0.php */; };
+		EFB8700420C0D6CF0011AF78 /* SAIMCustomerReceiptUpdateTrackingNo.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7320C0D6CE0011AF78 /* SAIMCustomerReceiptUpdateTrackingNo.php */; };
+		EFB8700520C0D6CF0011AF78 /* SAIMAccountReceiptHistoryDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7420C0D6CE0011AF78 /* SAIMAccountReceiptHistoryDelete.php */; };
+		EFB8700620C0D6CF0011AF78 /* SAIMProductStatusGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7520C0D6CE0011AF78 /* SAIMProductStatusGet.php */; };
+		EFB8700720C0D6CF0011AF78 /* PHPMailerAutoload.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7620C0D6CE0011AF78 /* PHPMailerAutoload.php */; };
+		EFB8700820C0D6CF0011AF78 /* SAIMPushSyncUpdateTimeSynced.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7720C0D6CE0011AF78 /* SAIMPushSyncUpdateTimeSynced.php */; };
+		EFB8700920C0D6CF0011AF78 /* SAIMEventDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7820C0D6CE0011AF78 /* SAIMEventDelete.php */; };
+		EFB8700A20C0D6CF0011AF78 /* SAIMItemRunningIDInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7920C0D6CE0011AF78 /* SAIMItemRunningIDInsert.php */; };
+		EFB8700B20C0D6CF0011AF78 /* Sales.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7A20C0D6CE0011AF78 /* Sales.php */; };
+		EFB8700C20C0D6CF0011AF78 /* SAIMUserAccountUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7B20C0D6CE0011AF78 /* SAIMUserAccountUpdate.php */; };
+		EFB8700D20C0D6CF0011AF78 /* SAIMProductCategory1Update.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7C20C0D6CE0011AF78 /* SAIMProductCategory1Update.php */; };
+		EFB8700E20C0D6CF0011AF78 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7D20C0D6CE0011AF78 /* index.html */; };
+		EFB8700F20C0D6CF0011AF78 /* SAIMSalesSummaryGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7E20C0D6CE0011AF78 /* SAIMSalesSummaryGet.php */; };
+		EFB8701020C0D6CF0011AF78 /* SAIMCashAllocationInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E7F20C0D6CE0011AF78 /* SAIMCashAllocationInsert.php */; };
+		EFB8701120C0D6CF0011AF78 /* SAIMPushSyncUpdateByDeviceToken.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8020C0D6CE0011AF78 /* SAIMPushSyncUpdateByDeviceToken.php */; };
+		EFB8701220C0D6CF0011AF78 /* SAIMProductSalesUpdateCostMultiple.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8120C0D6CE0011AF78 /* SAIMProductSalesUpdateCostMultiple.php */; };
+		EFB8701320C0D6CF0011AF78 /* SAIMReceiptProductItemUnpostCM.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8220C0D6CE0011AF78 /* SAIMReceiptProductItemUnpostCM.php */; };
+		EFB8701420C0D6CF0011AF78 /* index.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8320C0D6CE0011AF78 /* index.php */; };
+		EFB8701520C0D6CF0011AF78 /* SAIMProductSizeUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8420C0D6CE0011AF78 /* SAIMProductSizeUpdate.php */; };
+		EFB8701620C0D6CF0011AF78 /* firstpageeng.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8520C0D6CE0011AF78 /* firstpageeng.php */; };
+		EFB8701720C0D6CF0011AF78 /* SAIMMasterGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8720C0D6CE0011AF78 /* SAIMMasterGet.php */; };
+		EFB8701820C0D6CF0011AF78 /* SAIMProductionOrderAddedGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8820C0D6CE0011AF78 /* SAIMProductionOrderAddedGet.php */; };
+		EFB8701920C0D6CF0011AF78 /* SAIMProductSalesMultipleUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8920C0D6CE0011AF78 /* SAIMProductSalesMultipleUpdate.php */; };
+		EFB8701A20C0D6CF0011AF78 /* SAIMUserAccountInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8A20C0D6CE0011AF78 /* SAIMUserAccountInsert.php */; };
+		EFB8701B20C0D6CF0011AF78 /* SAIMCashAllocationUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8B20C0D6CE0011AF78 /* SAIMCashAllocationUpdate.php */; };
+		EFB8701C20C0D6CF0011AF78 /* SAIMProductCategory1Insert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8C20C0D6CE0011AF78 /* SAIMProductCategory1Insert.php */; };
+		EFB8701D20C0D6CF0011AF78 /* SAIMEventGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8D20C0D6CE0011AF78 /* SAIMEventGet.php */; };
+		EFB8701E20C0D6CF0011AF78 /* SAIMReceiptUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8E20C0D6CE0011AF78 /* SAIMReceiptUpdate.php */; };
+		EFB8701F20C0D6CF0011AF78 /* testsqlinjection.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E8F20C0D6CE0011AF78 /* testsqlinjection.php */; };
+		EFB8702020C0D6CF0011AF78 /* testcon.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9020C0D6CE0011AF78 /* testcon.php */; };
+		EFB8702120C0D6CF0011AF78 /* SAIMProductSizeInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9120C0D6CE0011AF78 /* SAIMProductSizeInsert.php */; };
+		EFB8702220C0D6CF0011AF78 /* receiptdomain.html in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9220C0D6CE0011AF78 /* receiptdomain.html */; };
+		EFB8702320C0D6CF0011AF78 /* ck.pem in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9320C0D6CE0011AF78 /* ck.pem */; };
+		EFB8702420C0D6CF0011AF78 /* SAIMProductSalesUpdateCost.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9420C0D6CE0011AF78 /* SAIMProductSalesUpdateCost.php */; };
+		EFB8702520C0D6CF0011AF78 /* saimTransactinLog20180405.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9520C0D6CE0011AF78 /* saimTransactinLog20180405.log */; };
+		EFB8702620C0D6CF0011AF78 /* SAIMProductCategory2Delete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9620C0D6CE0011AF78 /* SAIMProductCategory2Delete.php */; };
+		EFB8702720C0D6CF0011AF78 /* blankSignature.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9720C0D6CE0011AF78 /* blankSignature.png */; };
+		EFB8702820C0D6CF0011AF78 /* urlinsertlistprefix.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9820C0D6CE0011AF78 /* urlinsertlistprefix.php */; };
+		EFB8702920C0D6CF0011AF78 /* SAIMRewardProgramUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9920C0D6CE0011AF78 /* SAIMRewardProgramUpdate.php */; };
+		EFB8702A20C0D6CF0011AF78 /* SAIMCustomMadeUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9A20C0D6CE0011AF78 /* SAIMCustomMadeUpdate.php */; };
+		EFB8702B20C0D6CF0011AF78 /* ProductItem14.xls in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9B20C0D6CE0011AF78 /* ProductItem14.xls */; };
+		EFB8702C20C0D6CF0011AF78 /* SAIMPostCustomerInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9C20C0D6CE0011AF78 /* SAIMPostCustomerInsert.php */; };
+		EFB8702D20C0D6CF0011AF78 /* ProductItem15.xls in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9D20C0D6CE0011AF78 /* ProductItem15.xls */; };
+		EFB8702E20C0D6CF0011AF78 /* SAIMProductDeleteFromEvent.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9E20C0D6CE0011AF78 /* SAIMProductDeleteFromEvent.php */; };
+		EFB8702F20C0D6CF0011AF78 /* testRestartingTransaction.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86E9F20C0D6CE0011AF78 /* testRestartingTransaction.php */; };
+		EFB8703020C0D6CF0011AF78 /* testdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EA020C0D6CE0011AF78 /* testdate.php */; };
+		EFB8703120C0D6CF0011AF78 /* วิธีการ Setup เริ่มต้น Package Private Hosting11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EA120C0D6CE0011AF78 /* วิธีการ Setup เริ่มต้น Package Private Hosting11.pdf */; };
+		EFB8703220C0D6CF0011AF78 /* SAIMCustomerReceiptUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EA220C0D6CE0011AF78 /* SAIMCustomerReceiptUpdate.php */; };
+		EFB8703320C0D6CF0011AF78 /* generateSalesAllEvents.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EA320C0D6CE0011AF78 /* generateSalesAllEvents.php */; };
+		EFB8703420C0D6CF0011AF78 /* SAIMProductNameDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EA420C0D6CE0011AF78 /* SAIMProductNameDelete.php */; };
+		EFB8703520C0D6CF0011AF78 /* error test in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EA520C0D6CE0011AF78 /* error test */; };
+		EFB8703620C0D6CF0011AF78 /* createQRCodeFileTest24.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EA620C0D6CE0011AF78 /* createQRCodeFileTest24.php */; };
+		EFB8703720C0D6CF0011AF78 /* SAIMRewardProgramInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EA720C0D6CE0011AF78 /* SAIMRewardProgramInsert.php */; };
+		EFB8703820C0D6CF0011AF78 /* SAIMReceiptProductItemPreOrderCM.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EA820C0D6CE0011AF78 /* SAIMReceiptProductItemPreOrderCM.php */; };
+		EFB8703920C0D6CF0011AF78 /* CertificateSigningRequest.certSigningRequest in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EAA20C0D6CE0011AF78 /* CertificateSigningRequest.certSigningRequest */; };
+		EFB8703A20C0D6CF0011AF78 /* ck.pem in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EAB20C0D6CE0011AF78 /* ck.pem */; };
+		EFB8703B20C0D6CF0011AF78 /* Certificates.p12 in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EAC20C0D6CE0011AF78 /* Certificates.p12 */; };
+		EFB8703C20C0D6CF0011AF78 /* SAIMTransferHistoryGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EAD20C0D6CE0011AF78 /* SAIMTransferHistoryGet.php */; };
+		EFB8703D20C0D6CF0011AF78 /* SAIMUserAccountEventDeleteThenMultipleInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EAE20C0D6CE0011AF78 /* SAIMUserAccountEventDeleteThenMultipleInsert.php */; };
+		EFB8703E20C0D6CF0011AF78 /* SAIMCustomerReceiptUpdatePostCustomerID.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EAF20C0D6CE0011AF78 /* SAIMCustomerReceiptUpdatePostCustomerID.php */; };
+		EFB8703F20C0D6CF0011AF78 /* saimTransactinLog20180407.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EB020C0D6CE0011AF78 /* saimTransactinLog20180407.log */; };
+		EFB8704020C0D6CF0011AF78 /* SAIMReceiptAndReceiptProductItemDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EB120C0D6CE0011AF78 /* SAIMReceiptAndReceiptProductItemDelete.php */; };
+		EFB8704120C0D6CF0011AF78 /* testpush.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EB220C0D6CE0011AF78 /* testpush.php */; };
+		EFB8704220C0D6CF0011AF78 /* SAIMUserAccountEventDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EB320C0D6CE0011AF78 /* SAIMUserAccountEventDelete.php */; };
+		EFB8704320C0D6CF0011AF78 /* CertificateSigningRequest.certSigningRequest in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EB520C0D6CE0011AF78 /* CertificateSigningRequest.certSigningRequest */; };
+		EFB8704420C0D6CF0011AF78 /* ck.pem in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EB620C0D6CE0011AF78 /* ck.pem */; };
+		EFB8704520C0D6CF0011AF78 /* Certificates.p12 in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EB720C0D6CE0011AF78 /* Certificates.p12 */; };
+		EFB8704620C0D6CF0011AF78 /* SAIMPushSyncUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EB820C0D6CE0011AF78 /* SAIMPushSyncUpdate.php */; };
+		EFB8704720C0D6CF0011AF78 /* SAIMAccountReceiptHistorySummaryByDateGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EB920C0D6CE0011AF78 /* SAIMAccountReceiptHistorySummaryByDateGet.php */; };
+		EFB8704820C0D6CF0011AF78 /* SAIMProductSalesSetInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EBA20C0D6CE0011AF78 /* SAIMProductSalesSetInsert.php */; };
+		EFB8704920C0D6CF0011AF78 /* testvariable.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EBB20C0D6CE0011AF78 /* testvariable.php */; };
+		EFB8704A20C0D6CF0011AF78 /* createQRCodeFile201612.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EBC20C0D6CE0011AF78 /* createQRCodeFile201612.php */; };
+		EFB8704B20C0D6CF0011AF78 /* SAIMProductionOrderDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EBD20C0D6CE0011AF78 /* SAIMProductionOrderDelete.php */; };
+		EFB8704C20C0D6CF0011AF78 /* SAIMColorDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EBE20C0D6CE0011AF78 /* SAIMColorDelete.php */; };
+		EFB8704D20C0D6CF0011AF78 /* test1.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EBF20C0D6CE0011AF78 /* test1.php */; };
+		EFB8704E20C0D6CF0011AF78 /* IMG_0028.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EC120C0D6CE0011AF78 /* IMG_0028.jpg */; };
+		EFB8704F20C0D6CF0011AF78 /* IMG_0160.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EC220C0D6CE0011AF78 /* IMG_0160.jpg */; };
+		EFB8705020C0D6CF0011AF78 /* IMG_0161.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EC320C0D6CE0011AF78 /* IMG_0161.jpg */; };
+		EFB8705120C0D6CF0011AF78 /* IMG_0015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EC420C0D6CE0011AF78 /* IMG_0015.jpg */; };
+		EFB8705220C0D6CF0011AF78 /* IMG_0017.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EC520C0D6CE0011AF78 /* IMG_0017.jpg */; };
+		EFB8705320C0D6CF0011AF78 /* IMG_0163.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EC620C0D6CE0011AF78 /* IMG_0163.jpg */; };
+		EFB8705420C0D6CF0011AF78 /* IMG_0162.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EC720C0D6CE0011AF78 /* IMG_0162.jpg */; };
+		EFB8705520C0D6CF0011AF78 /* IMG_0006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EC820C0D6CE0011AF78 /* IMG_0006.jpg */; };
+		EFB8705620C0D6CF0011AF78 /* IMG_0013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EC920C0D6CE0011AF78 /* IMG_0013.jpg */; };
+		EFB8705720C0D6CF0011AF78 /* IMG_0159.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ECA20C0D6CE0011AF78 /* IMG_0159.jpg */; };
+		EFB8705820C0D6CF0011AF78 /* IMG_0164.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ECB20C0D6CE0011AF78 /* IMG_0164.jpg */; };
+		EFB8705920C0D6CF0011AF78 /* IMG_0088.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ECC20C0D6CE0011AF78 /* IMG_0088.jpg */; };
+		EFB8705A20C0D6CF0011AF78 /* IMG_0077.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ECD20C0D6CE0011AF78 /* IMG_0077.jpg */; };
+		EFB8705B20C0D6CF0011AF78 /* IMG_0063.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ECE20C0D6CE0011AF78 /* IMG_0063.jpg */; };
+		EFB8705C20C0D6CF0011AF78 /* IMG_0103.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ECF20C0D6CE0011AF78 /* IMG_0103.jpg */; };
+		EFB8705D20C0D6CF0011AF78 /* IMG_0117.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ED020C0D6CE0011AF78 /* IMG_0117.jpg */; };
+		EFB8705E20C0D6CF0011AF78 /* IMG_0116.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ED120C0D6CE0011AF78 /* IMG_0116.jpg */; };
+		EFB8705F20C0D6CF0011AF78 /* IMG_0102.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ED220C0D6CE0011AF78 /* IMG_0102.jpg */; };
+		EFB8706020C0D6CF0011AF78 /* IMG_0062.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ED320C0D6CE0011AF78 /* IMG_0062.jpg */; };
+		EFB8706120C0D6CF0011AF78 /* IMG_0076.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ED420C0D6CE0011AF78 /* IMG_0076.jpg */; };
+		EFB8706220C0D6CF0011AF78 /* IMG_0089.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ED520C0D6CE0011AF78 /* IMG_0089.jpg */; };
+		EFB8706320C0D6CF0011AF78 /* IMG_0074.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ED620C0D6CE0011AF78 /* IMG_0074.jpg */; };
+		EFB8706420C0D6CF0011AF78 /* IMG_0114.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ED720C0D6CE0011AF78 /* IMG_0114.jpg */; };
+		EFB8706520C0D6CF0011AF78 /* IMG_0100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ED820C0D6CE0011AF78 /* IMG_0100.jpg */; };
+		EFB8706620C0D6CF0011AF78 /* IMG_0129.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86ED920C0D6CE0011AF78 /* IMG_0129.jpg */; };
+		EFB8706720C0D6CF0011AF78 /* IMG_0101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EDA20C0D6CE0011AF78 /* IMG_0101.jpg */; };
+		EFB8706820C0D6CF0011AF78 /* IMG_0115.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EDB20C0D6CE0011AF78 /* IMG_0115.jpg */; };
+		EFB8706920C0D6CF0011AF78 /* IMG_0075.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EDC20C0D6CE0011AF78 /* IMG_0075.jpg */; };
+		EFB8706A20C0D6CF0011AF78 /* IMG_0061.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EDD20C0D6CE0011AF78 /* IMG_0061.jpg */; };
+		EFB8706B20C0D6CF0011AF78 /* IMG_0065.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EDE20C0D6CE0011AF78 /* IMG_0065.jpg */; };
+		EFB8706C20C0D6CF0011AF78 /* IMG_0071.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EDF20C0D6CE0011AF78 /* IMG_0071.jpg */; };
+		EFB8706D20C0D6CF0011AF78 /* IMG_0111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EE020C0D6CE0011AF78 /* IMG_0111.jpg */; };
+		EFB8706E20C0D6CF0011AF78 /* IMG_0105.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EE120C0D6CE0011AF78 /* IMG_0105.jpg */; };
+		EFB8706F20C0D6CF0011AF78 /* IMG_0104.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EE220C0D6CE0011AF78 /* IMG_0104.jpg */; };
+		EFB8707020C0D6CF0011AF78 /* IMG_0110.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EE320C0D6CE0011AF78 /* IMG_0110.jpg */; };
+		EFB8707120C0D6CF0011AF78 /* IMG_0070.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EE420C0D6CE0011AF78 /* IMG_0070.jpg */; };
+		EFB8707220C0D6CF0011AF78 /* IMG_0064.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EE520C0D6CE0011AF78 /* IMG_0064.jpg */; };
+		EFB8707320C0D6CF0011AF78 /* IMG_0099.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EE620C0D6CE0011AF78 /* IMG_0099.jpg */; };
+		EFB8707420C0D6CF0011AF78 /* IMG_0072.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EE720C0D6CE0011AF78 /* IMG_0072.jpg */; };
+		EFB8707520C0D6CF0011AF78 /* IMG_0066.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EE820C0D6CE0011AF78 /* IMG_0066.jpg */; };
+		EFB8707620C0D6CF0011AF78 /* IMG_0106.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EE920C0D6CE0011AF78 /* IMG_0106.jpg */; };
+		EFB8707720C0D6CF0011AF78 /* IMG_0112.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EEA20C0D6CE0011AF78 /* IMG_0112.jpg */; };
+		EFB8707820C0D6CF0011AF78 /* IMG_0113.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EEB20C0D6CE0011AF78 /* IMG_0113.jpg */; };
+		EFB8707920C0D6CF0011AF78 /* IMG_0107.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EEC20C0D6CE0011AF78 /* IMG_0107.jpg */; };
+		EFB8707A20C0D6CF0011AF78 /* IMG_0067.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EED20C0D6CE0011AF78 /* IMG_0067.jpg */; };
+		EFB8707B20C0D6CF0011AF78 /* IMG_0073.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EEE20C0D6CE0011AF78 /* IMG_0073.jpg */; };
+		EFB8707C20C0D6CF0011AF78 /* IMG_0098.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EEF20C0D6CE0011AF78 /* IMG_0098.jpg */; };
+		EFB8707D20C0D6CF0011AF78 /* IMG_0095.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EF020C0D6CE0011AF78 /* IMG_0095.jpg */; };
+		EFB8707E20C0D6CF0011AF78 /* IMG_0081.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EF120C0D6CE0011AF78 /* IMG_0081.jpg */; };
+		EFB8707F20C0D6CF0011AF78 /* IMG_0122.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EF220C0D6CE0011AF78 /* IMG_0122.jpg */; };
+		EFB8708020C0D6CF0011AF78 /* IMG_0123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EF320C0D6CE0011AF78 /* IMG_0123.jpg */; };
+		EFB8708120C0D6CF0011AF78 /* IMG_0080.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EF420C0D6CE0011AF78 /* IMG_0080.jpg */; };
+		EFB8708220C0D6CF0011AF78 /* IMG_0094.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EF520C0D6CE0011AF78 /* IMG_0094.jpg */; };
+		EFB8708320C0D6CF0011AF78 /* IMG_0082.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EF620C0D6CE0011AF78 /* IMG_0082.jpg */; };
+		EFB8708420C0D6CF0011AF78 /* IMG_0096.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EF720C0D6CE0011AF78 /* IMG_0096.jpg */; };
+		EFB8708520C0D6CF0011AF78 /* IMG_0069.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EF820C0D6CE0011AF78 /* IMG_0069.jpg */; };
+		EFB8708620C0D6CF0011AF78 /* IMG_0135.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EF920C0D6CE0011AF78 /* IMG_0135.jpg */; };
+		EFB8708720C0D6CF0011AF78 /* IMG_0121.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EFA20C0D6CE0011AF78 /* IMG_0121.jpg */; };
+		EFB8708820C0D6CF0011AF78 /* IMG_0109.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EFB20C0D6CE0011AF78 /* IMG_0109.jpg */; };
+		EFB8708920C0D6CF0011AF78 /* IMG_0108.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EFC20C0D6CE0011AF78 /* IMG_0108.jpg */; };
+		EFB8708A20C0D6CF0011AF78 /* IMG_0120.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EFD20C0D6CE0011AF78 /* IMG_0120.jpg */; };
+		EFB8708B20C0D6CF0011AF78 /* IMG_0068.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EFE20C0D6CE0011AF78 /* IMG_0068.jpg */; };
+		EFB8708C20C0D6CF0011AF78 /* IMG_0097.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86EFF20C0D6CE0011AF78 /* IMG_0097.jpg */; };
+		EFB8708D20C0D6CF0011AF78 /* IMG_0083.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0020C0D6CE0011AF78 /* IMG_0083.jpg */; };
+		EFB8708E20C0D6CF0011AF78 /* IMG_0087.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0120C0D6CE0011AF78 /* IMG_0087.jpg */; };
+		EFB8708F20C0D6CF0011AF78 /* IMG_0093.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0220C0D6CE0011AF78 /* IMG_0093.jpg */; };
+		EFB8709020C0D6CF0011AF78 /* IMG_0118.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0320C0D6CE0011AF78 /* IMG_0118.jpg */; };
+		EFB8709120C0D6CF0011AF78 /* IMG_0124.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0420C0D6CE0011AF78 /* IMG_0124.jpg */; };
+		EFB8709220C0D6CF0011AF78 /* IMG_0125.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0520C0D6CE0011AF78 /* IMG_0125.jpg */; };
+		EFB8709320C0D6CF0011AF78 /* IMG_0131.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0620C0D6CE0011AF78 /* IMG_0131.jpg */; };
+		EFB8709420C0D6CF0011AF78 /* IMG_0119.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0720C0D6CE0011AF78 /* IMG_0119.jpg */; };
+		EFB8709520C0D6CF0011AF78 /* IMG_0079.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0820C0D6CE0011AF78 /* IMG_0079.jpg */; };
+		EFB8709620C0D6CF0011AF78 /* IMG_0092.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0920C0D6CE0011AF78 /* IMG_0092.jpg */; };
+		EFB8709720C0D6CF0011AF78 /* IMG_0086.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0A20C0D6CE0011AF78 /* IMG_0086.jpg */; };
+		EFB8709820C0D6CF0011AF78 /* IMG_0090.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0B20C0D6CE0011AF78 /* IMG_0090.jpg */; };
+		EFB8709920C0D6CF0011AF78 /* IMG_0084.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0C20C0D6CE0011AF78 /* IMG_0084.jpg */; };
+		EFB8709A20C0D6CF0011AF78 /* IMG_0127.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0D20C0D6CE0011AF78 /* IMG_0127.jpg */; };
+		EFB8709B20C0D6CF0011AF78 /* IMG_0133.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0E20C0D6CE0011AF78 /* IMG_0133.jpg */; };
+		EFB8709C20C0D6CF0011AF78 /* IMG_0132.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F0F20C0D6CE0011AF78 /* IMG_0132.jpg */; };
+		EFB8709D20C0D6CF0011AF78 /* IMG_0085.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1020C0D6CE0011AF78 /* IMG_0085.jpg */; };
+		EFB8709E20C0D6CF0011AF78 /* IMG_0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1120C0D6CE0011AF78 /* IMG_0091.jpg */; };
+		EFB8709F20C0D6CF0011AF78 /* IMG_0155.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1220C0D6CE0011AF78 /* IMG_0155.jpg */; };
+		EFB870A020C0D6CF0011AF78 /* IMG_0022.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1320C0D6CE0011AF78 /* IMG_0022.jpg */; };
+		EFB870A120C0D6CF0011AF78 /* IMG_0156.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1420C0D6CE0011AF78 /* IMG_0156.jpg */; };
+		EFB870A220C0D6CF0011AF78 /* IMG_0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1520C0D6CE0011AF78 /* IMG_0033.jpg */; };
+		EFB870A320C0D6CF0011AF78 /* IMG_0032.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1620C0D6CE0011AF78 /* IMG_0032.jpg */; };
+		EFB870A420C0D6CF0011AF78 /* IMG_0018.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1720C0D6CE0011AF78 /* IMG_0018.jpg */; };
+		EFB870A520C0D6CF0011AF78 /* IMG_0030.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1820C0D6CE0011AF78 /* IMG_0030.jpg */; };
+		EFB870A620C0D6CF0011AF78 /* IMG_0031.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1920C0D6CE0011AF78 /* IMG_0031.jpg */; };
+		EFB870A720C0D6CF0011AF78 /* SAIMReceiptProductItemUpdateCMIn.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1A20C0D6CE0011AF78 /* SAIMReceiptProductItemUpdateCMIn.php */; };
+		EFB870A820C0D6CF0011AF78 /* SAIMProductTransferGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1B20C0D6CE0011AF78 /* SAIMProductTransferGet.php */; };
+		EFB870A920C0D6CF0011AF78 /* SAIMProductEventIDUpdateByProductID.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1C20C0D6CE0011AF78 /* SAIMProductEventIDUpdateByProductID.php */; };
+		EFB870AA20C0D6CF0011AF78 /* SAIMAccountInventoryInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1D20C0D6CE0011AF78 /* SAIMAccountInventoryInsert.php */; };
+		EFB870AB20C0D6CF0011AF78 /* viewSAIM.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1E20C0D6CE0011AF78 /* viewSAIM.php */; };
+		EFB870AC20C0D6CF0011AF78 /* oneSignature.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F1F20C0D6CE0011AF78 /* oneSignature.png */; };
+		EFB870AD20C0D6CF0011AF78 /* SAIMProductSalesSetUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2020C0D6CE0011AF78 /* SAIMProductSalesSetUpdate.php */; };
+		EFB870AE20C0D6CF0011AF78 /* SAIMRewardProgramGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2120C0D6CE0011AF78 /* SAIMRewardProgramGet.php */; };
+		EFB870AF20C0D6CF0011AF78 /* SAIMAccountReceiptHistoryGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2220C0D6CE0011AF78 /* SAIMAccountReceiptHistoryGet.php */; };
+		EFB870B020C0D6CF0011AF78 /* createQRCodeFileTest23.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2320C0D6CE0011AF78 /* createQRCodeFileTest23.php */; };
+		EFB870B120C0D6CF0011AF78 /* SAIMAccountReceiptHistoryDetailGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2420C0D6CE0011AF78 /* SAIMAccountReceiptHistoryDetailGet.php */; };
+		EFB870B220C0D6CF0011AF78 /* reviewtest2.html in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2520C0D6CE0011AF78 /* reviewtest2.html */; };
+		EFB870B320C0D6CF0011AF78 /* downloadImage.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2620C0D6CE0011AF78 /* downloadImage.php */; };
+		EFB870B420C0D6CF0011AF78 /* dburl20180217.zip in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2720C0D6CE0011AF78 /* dburl20180217.zip */; };
+		EFB870B520C0D6CF0011AF78 /* createtabletest in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2820C0D6CE0011AF78 /* createtabletest */; };
+		EFB870B620C0D6CF0011AF78 /* SAIMProductSizeDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2920C0D6CE0011AF78 /* SAIMProductSizeDelete.php */; };
+		EFB870B720C0D6CF0011AF78 /* saimTransactinLog20171230.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2A20C0D6CE0011AF78 /* saimTransactinLog20171230.log */; };
+		EFB870B820C0D6CF0011AF78 /* IMG_0028.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2C20C0D6CE0011AF78 /* IMG_0028.jpg */; };
+		EFB870B920C0D6CF0011AF78 /* IMG_0015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2D20C0D6CE0011AF78 /* IMG_0015.jpg */; };
+		EFB870BA20C0D6CF0011AF78 /* IMG_0017.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2E20C0D6CE0011AF78 /* IMG_0017.jpg */; };
+		EFB870BB20C0D6CF0011AF78 /* IMG_0006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F2F20C0D6CE0011AF78 /* IMG_0006.jpg */; };
+		EFB870BC20C0D6CF0011AF78 /* IMG_0013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3020C0D6CE0011AF78 /* IMG_0013.jpg */; };
+		EFB870BD20C0D6CF0011AF78 /* IMG_0088.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3120C0D6CE0011AF78 /* IMG_0088.jpg */; };
+		EFB870BE20C0D6CF0011AF78 /* IMG_0077.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3220C0D6CE0011AF78 /* IMG_0077.jpg */; };
+		EFB870BF20C0D6CF0011AF78 /* IMG_0063.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3320C0D6CE0011AF78 /* IMG_0063.jpg */; };
+		EFB870C020C0D6CF0011AF78 /* IMG_0103.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3420C0D6CE0011AF78 /* IMG_0103.jpg */; };
+		EFB870C120C0D6CF0011AF78 /* IMG_0117.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3520C0D6CE0011AF78 /* IMG_0117.jpg */; };
+		EFB870C220C0D6CF0011AF78 /* IMG_0116.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3620C0D6CE0011AF78 /* IMG_0116.jpg */; };
+		EFB870C320C0D6CF0011AF78 /* IMG_0102.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3720C0D6CE0011AF78 /* IMG_0102.jpg */; };
+		EFB870C420C0D6CF0011AF78 /* IMG_0062.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3820C0D6CE0011AF78 /* IMG_0062.jpg */; };
+		EFB870C520C0D6CF0011AF78 /* IMG_0076.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3920C0D6CE0011AF78 /* IMG_0076.jpg */; };
+		EFB870C620C0D6CF0011AF78 /* IMG_0089.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3A20C0D6CE0011AF78 /* IMG_0089.jpg */; };
+		EFB870C720C0D6CF0011AF78 /* IMG_0074.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3B20C0D6CE0011AF78 /* IMG_0074.jpg */; };
+		EFB870C820C0D6CF0011AF78 /* IMG_0114.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3C20C0D6CE0011AF78 /* IMG_0114.jpg */; };
+		EFB870C920C0D6CF0011AF78 /* IMG_0100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3D20C0D6CE0011AF78 /* IMG_0100.jpg */; };
+		EFB870CA20C0D6CF0011AF78 /* IMG_0101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3E20C0D6CE0011AF78 /* IMG_0101.jpg */; };
+		EFB870CB20C0D6CF0011AF78 /* IMG_0115.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F3F20C0D6CE0011AF78 /* IMG_0115.jpg */; };
+		EFB870CC20C0D6CF0011AF78 /* IMG_0075.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4020C0D6CE0011AF78 /* IMG_0075.jpg */; };
+		EFB870CD20C0D6CF0011AF78 /* IMG_0061.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4120C0D6CE0011AF78 /* IMG_0061.jpg */; };
+		EFB870CE20C0D6CF0011AF78 /* IMG_0065.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4220C0D6CE0011AF78 /* IMG_0065.jpg */; };
+		EFB870CF20C0D6CF0011AF78 /* IMG_0071.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4320C0D6CE0011AF78 /* IMG_0071.jpg */; };
+		EFB870D020C0D6CF0011AF78 /* IMG_0111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4420C0D6CE0011AF78 /* IMG_0111.jpg */; };
+		EFB870D120C0D6CF0011AF78 /* IMG_0105.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4520C0D6CE0011AF78 /* IMG_0105.jpg */; };
+		EFB870D220C0D6CF0011AF78 /* IMG_0104.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4620C0D6CE0011AF78 /* IMG_0104.jpg */; };
+		EFB870D320C0D6CF0011AF78 /* IMG_0110.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4720C0D6CE0011AF78 /* IMG_0110.jpg */; };
+		EFB870D420C0D6CF0011AF78 /* IMG_0070.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4820C0D6CE0011AF78 /* IMG_0070.jpg */; };
+		EFB870D520C0D6CF0011AF78 /* IMG_0064.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4920C0D6CE0011AF78 /* IMG_0064.jpg */; };
+		EFB870D620C0D6CF0011AF78 /* IMG_0099.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4A20C0D6CE0011AF78 /* IMG_0099.jpg */; };
+		EFB870D720C0D6CF0011AF78 /* IMG_0072.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4B20C0D6CE0011AF78 /* IMG_0072.jpg */; };
+		EFB870D820C0D6CF0011AF78 /* IMG_0066.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4C20C0D6CE0011AF78 /* IMG_0066.jpg */; };
+		EFB870D920C0D6CF0011AF78 /* IMG_0106.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4D20C0D6CE0011AF78 /* IMG_0106.jpg */; };
+		EFB870DA20C0D6CF0011AF78 /* IMG_0112.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4E20C0D6CE0011AF78 /* IMG_0112.jpg */; };
+		EFB870DB20C0D6CF0011AF78 /* IMG_0113.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F4F20C0D6CE0011AF78 /* IMG_0113.jpg */; };
+		EFB870DC20C0D6CF0011AF78 /* IMG_0107.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5020C0D6CE0011AF78 /* IMG_0107.jpg */; };
+		EFB870DD20C0D6CF0011AF78 /* IMG_0067.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5120C0D6CE0011AF78 /* IMG_0067.jpg */; };
+		EFB870DE20C0D6CF0011AF78 /* IMG_0073.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5220C0D6CE0011AF78 /* IMG_0073.jpg */; };
+		EFB870DF20C0D6CF0011AF78 /* IMG_0098.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5320C0D6CE0011AF78 /* IMG_0098.jpg */; };
+		EFB870E020C0D6CF0011AF78 /* IMG_0095.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5420C0D6CE0011AF78 /* IMG_0095.jpg */; };
+		EFB870E120C0D6CF0011AF78 /* IMG_0081.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5520C0D6CE0011AF78 /* IMG_0081.jpg */; };
+		EFB870E220C0D6CF0011AF78 /* IMG_0122.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5620C0D6CE0011AF78 /* IMG_0122.jpg */; };
+		EFB870E320C0D6CF0011AF78 /* IMG_0123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5720C0D6CE0011AF78 /* IMG_0123.jpg */; };
+		EFB870E420C0D6CF0011AF78 /* IMG_0080.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5820C0D6CE0011AF78 /* IMG_0080.jpg */; };
+		EFB870E520C0D6CF0011AF78 /* IMG_0094.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5920C0D6CE0011AF78 /* IMG_0094.jpg */; };
+		EFB870E620C0D6CF0011AF78 /* IMG_0082.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5A20C0D6CE0011AF78 /* IMG_0082.jpg */; };
+		EFB870E720C0D6CF0011AF78 /* IMG_0096.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5B20C0D6CE0011AF78 /* IMG_0096.jpg */; };
+		EFB870E820C0D6CF0011AF78 /* IMG_0069.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5C20C0D6CE0011AF78 /* IMG_0069.jpg */; };
+		EFB870E920C0D6CF0011AF78 /* IMG_0121.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5D20C0D6CE0011AF78 /* IMG_0121.jpg */; };
+		EFB870EA20C0D6CF0011AF78 /* IMG_0109.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5E20C0D6CE0011AF78 /* IMG_0109.jpg */; };
+		EFB870EB20C0D6CF0011AF78 /* IMG_0108.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F5F20C0D6CE0011AF78 /* IMG_0108.jpg */; };
+		EFB870EC20C0D6CF0011AF78 /* IMG_0120.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6020C0D6CE0011AF78 /* IMG_0120.jpg */; };
+		EFB870ED20C0D6CF0011AF78 /* IMG_0068.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6120C0D6CE0011AF78 /* IMG_0068.jpg */; };
+		EFB870EE20C0D6CF0011AF78 /* IMG_0097.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6220C0D6CE0011AF78 /* IMG_0097.jpg */; };
+		EFB870EF20C0D6CF0011AF78 /* IMG_0083.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6320C0D6CE0011AF78 /* IMG_0083.jpg */; };
+		EFB870F020C0D6CF0011AF78 /* IMG_0087.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6420C0D6CE0011AF78 /* IMG_0087.jpg */; };
+		EFB870F120C0D6CF0011AF78 /* IMG_0093.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6520C0D6CE0011AF78 /* IMG_0093.jpg */; };
+		EFB870F220C0D6CF0011AF78 /* IMG_0118.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6620C0D6CE0011AF78 /* IMG_0118.jpg */; };
+		EFB870F320C0D6CF0011AF78 /* IMG_0124.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6720C0D6CE0011AF78 /* IMG_0124.jpg */; };
+		EFB870F420C0D6CF0011AF78 /* IMG_0125.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6820C0D6CE0011AF78 /* IMG_0125.jpg */; };
+		EFB870F520C0D6CF0011AF78 /* IMG_0119.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6920C0D6CE0011AF78 /* IMG_0119.jpg */; };
+		EFB870F620C0D6CF0011AF78 /* IMG_0079.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6A20C0D6CE0011AF78 /* IMG_0079.jpg */; };
+		EFB870F720C0D6CF0011AF78 /* IMG_0092.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6B20C0D6CE0011AF78 /* IMG_0092.jpg */; };
+		EFB870F820C0D6CF0011AF78 /* IMG_0086.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6C20C0D6CE0011AF78 /* IMG_0086.jpg */; };
+		EFB870F920C0D6CF0011AF78 /* IMG_0090.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6D20C0D6CE0011AF78 /* IMG_0090.jpg */; };
+		EFB870FA20C0D6CF0011AF78 /* IMG_0084.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6E20C0D6CE0011AF78 /* IMG_0084.jpg */; };
+		EFB870FB20C0D6CF0011AF78 /* IMG_0127.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F6F20C0D6CE0011AF78 /* IMG_0127.jpg */; };
+		EFB870FC20C0D6CF0011AF78 /* IMG_0085.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7020C0D6CE0011AF78 /* IMG_0085.jpg */; };
+		EFB870FD20C0D6CF0011AF78 /* IMG_0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7120C0D6CE0011AF78 /* IMG_0091.jpg */; };
+		EFB870FE20C0D6CF0011AF78 /* IMG_0022.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7220C0D6CE0011AF78 /* IMG_0022.jpg */; };
+		EFB870FF20C0D6CF0011AF78 /* IMG_0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7320C0D6CE0011AF78 /* IMG_0033.jpg */; };
+		EFB8710020C0D6CF0011AF78 /* IMG_0032.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7420C0D6CE0011AF78 /* IMG_0032.jpg */; };
+		EFB8710120C0D6CF0011AF78 /* IMG_0018.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7520C0D6CE0011AF78 /* IMG_0018.jpg */; };
+		EFB8710220C0D6CF0011AF78 /* IMG_0030.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7620C0D6CE0011AF78 /* IMG_0030.jpg */; };
+		EFB8710320C0D6CF0011AF78 /* IMG_0031.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7720C0D6CE0011AF78 /* IMG_0031.jpg */; };
+		EFB8710420C0D6CF0011AF78 /* SAIMAccountReceiptByPeriodGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7820C0D6CE0011AF78 /* SAIMAccountReceiptByPeriodGet.php */; };
+		EFB8710520C0D6CF0011AF78 /* SAIMUserAccountUpdateCountNotSeen.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7920C0D6CE0011AF78 /* SAIMUserAccountUpdateCountNotSeen.php */; };
+		EFB8710620C0D6CF0011AF78 /* SAIMUserAccountDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7A20C0D6CE0011AF78 /* SAIMUserAccountDelete.php */; };
+		EFB8710720C0D6CF0011AF78 /* SAIMProductCategory1Delete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7B20C0D6CE0011AF78 /* SAIMProductCategory1Delete.php */; };
+		EFB8710820C0D6CF0011AF78 /* dbConnect.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7C20C0D6CE0011AF78 /* dbConnect.php */; };
+		EFB8710920C0D6CF0011AF78 /* SAIMAccountInventoryAddedGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7D20C0D6CE0011AF78 /* SAIMAccountInventoryAddedGet.php */; };
+		EFB8710A20C0D6CF0011AF78 /* ~$DorotaQRCode20171208.xls in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7E20C0D6CE0011AF78 /* ~$DorotaQRCode20171208.xls */; };
+		EFB8710B20C0D6CF0011AF78 /* allpageinsideeng.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F7F20C0D6CE0011AF78 /* allpageinsideeng.php */; };
+		EFB8710C20C0D6CF0011AF78 /* SAIMDeviceInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8020C0D6CE0011AF78 /* SAIMDeviceInsert.php */; };
+		EFB8710D20C0D6CF0011AF78 /* SAIMSalesDetailGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8120C0D6CE0011AF78 /* SAIMSalesDetailGet.php */; };
+		EFB8710E20C0D6CF0011AF78 /* oneSignature2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8220C0D6CE0011AF78 /* oneSignature2.png */; };
+		EFB8710F20C0D6CF0011AF78 /* oneSignature3.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8320C0D6CE0011AF78 /* oneSignature3.png */; };
+		EFB8711020C0D6CF0011AF78 /* SAIMProductUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8420C0D6CE0011AF78 /* SAIMProductUpdate.php */; };
+		EFB8711120C0D6CF0011AF78 /* SAIMProductSalesUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8520C0D6CE0011AF78 /* SAIMProductSalesUpdate.php */; };
+		EFB8711220C0D6CF0011AF78 /* DorotaQRCode25601209_005226.xls in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8620C0D6CE0011AF78 /* DorotaQRCode25601209_005226.xls */; };
+		EFB8711320C0D6CF0011AF78 /* uploadPhoto.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8720C0D6CE0011AF78 /* uploadPhoto.php */; };
+		EFB8711420C0D6D00011AF78 /* SAIMEventInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8820C0D6CE0011AF78 /* SAIMEventInsert.php */; };
+		EFB8711520C0D6D00011AF78 /* receipt copy.html in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8920C0D6CE0011AF78 /* receipt copy.html */; };
+		EFB8711620C0D6D00011AF78 /* SAIMCompareInventoryUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8A20C0D6CE0011AF78 /* SAIMCompareInventoryUpdate.php */; };
+		EFB8711720C0D6D00011AF78 /* storytelling in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8B20C0D6CE0011AF78 /* storytelling */; };
+		EFB8711820C0D6D00011AF78 /* DorotaQRCode20171208.xls in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8C20C0D6CE0011AF78 /* DorotaQRCode20171208.xls */; };
+		EFB8711920C0D6D00011AF78 /* SAIMProductSalesDeleteProductNameID.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8D20C0D6CE0011AF78 /* SAIMProductSalesDeleteProductNameID.php */; };
+		EFB8711A20C0D6D00011AF78 /* SAIMProductEventIDUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8E20C0D6CE0011AF78 /* SAIMProductEventIDUpdate.php */; };
+		EFB8711B20C0D6D00011AF78 /* fail log.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F8F20C0D6CF0011AF78 /* fail log.xlsx */; };
+		EFB8711C20C0D6D00011AF78 /* thankyou.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9020C0D6CF0011AF78 /* thankyou.php */; };
+		EFB8711D20C0D6D00011AF78 /* SAIMProductInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9120C0D6CF0011AF78 /* SAIMProductInsert.php */; };
+		EFB8711E20C0D6D00011AF78 /* saimTransactinLog20180409.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9220C0D6CF0011AF78 /* saimTransactinLog20180409.log */; };
+		EFB8711F20C0D6D00011AF78 /* createQRCodeFileTesting.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9320C0D6CF0011AF78 /* createQRCodeFileTesting.php */; };
+		EFB8712020C0D6D00011AF78 /* SAIMProductSalesInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9420C0D6CF0011AF78 /* SAIMProductSalesInsert.php */; };
+		EFB8712120C0D6D00011AF78 /* SAIMMemberAndPointGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9520C0D6CF0011AF78 /* SAIMMemberAndPointGet.php */; };
+		EFB8712220C0D6D00011AF78 /* SAIMEventUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9620C0D6CF0011AF78 /* SAIMEventUpdate.php */; };
+		EFB8712320C0D6D00011AF78 /* SAIMMasterGetTest.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9720C0D6CF0011AF78 /* SAIMMasterGetTest.php */; };
+		EFB8712420C0D6D00011AF78 /* php_error.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9820C0D6CF0011AF78 /* php_error.log */; };
+		EFB8712520C0D6D00011AF78 /* SAIMCompareInventoryInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9920C0D6CF0011AF78 /* SAIMCompareInventoryInsert.php */; };
+		EFB8712620C0D6D00011AF78 /* urlinsertprefix.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9A20C0D6CF0011AF78 /* urlinsertprefix.php */; };
+		EFB8712720C0D6D00011AF78 /* jillSignature.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9B20C0D6CF0011AF78 /* jillSignature.png */; };
+		EFB8712820C0D6D00011AF78 /* Excel2007.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9C20C0D6CF0011AF78 /* Excel2007.php */; };
+		EFB8712920C0D6D00011AF78 /* SAIMSalesByChannelGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9D20C0D6CF0011AF78 /* SAIMSalesByChannelGet.php */; };
+		EFB8712A20C0D6D00011AF78 /* urlupdateprefix.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9E20C0D6CF0011AF78 /* urlupdateprefix.php */; };
+		EFB8712B20C0D6D00011AF78 /* SAIMEmailQRCode.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86F9F20C0D6CF0011AF78 /* SAIMEmailQRCode.php */; };
+		EFB8712C20C0D6D00011AF78 /* saimTransactinLog20180321.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FA020C0D6CF0011AF78 /* saimTransactinLog20180321.log */; };
+		EFB8712D20C0D6D00011AF78 /* SAIMEventCostInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FA120C0D6CF0011AF78 /* SAIMEventCostInsert.php */; };
+		EFB8712E20C0D6D00011AF78 /* SAIMProductCostUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FA220C0D6CF0011AF78 /* SAIMProductCostUpdate.php */; };
+		EFB8712F20C0D6D00011AF78 /* SAIMColorUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FA320C0D6CF0011AF78 /* SAIMColorUpdate.php */; };
+		EFB8713020C0D6D00011AF78 /* compare4.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FA420C0D6CF0011AF78 /* compare4.php */; };
+		EFB8713120C0D6D00011AF78 /* SAIMProductSalesUpdateDetail.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FA520C0D6CF0011AF78 /* SAIMProductSalesUpdateDetail.php */; };
+		EFB8713220C0D6D00011AF78 /* SAIMAccountReceiptInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FA620C0D6CF0011AF78 /* SAIMAccountReceiptInsert.php */; };
+		EFB8713320C0D6D00011AF78 /* firstpage.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FA720C0D6CF0011AF78 /* firstpage.php */; };
+		EFB8713420C0D6D00011AF78 /* SAIMReceiptProductItemPreOrderEventID.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FA820C0D6CF0011AF78 /* SAIMReceiptProductItemPreOrderEventID.php */; };
+		EFB8713520C0D6D00011AF78 /* SAIMAccountInventoryDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FA920C0D6CF0011AF78 /* SAIMAccountInventoryDelete.php */; };
+		EFB8713620C0D6D00011AF78 /* SAIMAccountReceiptGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FAA20C0D6CF0011AF78 /* SAIMAccountReceiptGet.php */; };
+		EFB8713720C0D6D00011AF78 /* SAIMProductionOrderInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FAB20C0D6CF0011AF78 /* SAIMProductionOrderInsert.php */; };
+		EFB8713820C0D6D00011AF78 /* SAIMUserAccountDeviceTokenUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FAC20C0D6CF0011AF78 /* SAIMUserAccountDeviceTokenUpdate.php */; };
+		EFB8713920C0D6D00011AF78 /* downloadFile.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FAD20C0D6CF0011AF78 /* downloadFile.php */; };
+		EFB8713A20C0D6D00011AF78 /* SAIMImageRunningIDInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FAE20C0D6CF0011AF78 /* SAIMImageRunningIDInsert.php */; };
+		EFB8713B20C0D6D00011AF78 /* SAIMColorInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FAF20C0D6CF0011AF78 /* SAIMColorInsert.php */; };
+		EFB8713C20C0D6D00011AF78 /* saimTransactinLog20180506.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FB120C0D6CF0011AF78 /* saimTransactinLog20180506.log */; };
+		EFB8713D20C0D6D00011AF78 /* saimTransactinLog20180512.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FB220C0D6CF0011AF78 /* saimTransactinLog20180512.log */; };
+		EFB8713E20C0D6D00011AF78 /* saimTransactinLog20180513.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FB320C0D6CF0011AF78 /* saimTransactinLog20180513.log */; };
+		EFB8713F20C0D6D00011AF78 /* saimTransactinLog20180507.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FB420C0D6CF0011AF78 /* saimTransactinLog20180507.log */; };
+		EFB8714020C0D6D00011AF78 /* saimTransactinLog20180511.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FB520C0D6CF0011AF78 /* saimTransactinLog20180511.log */; };
+		EFB8714120C0D6D00011AF78 /* saimTransactinLog20180505.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FB620C0D6CF0011AF78 /* saimTransactinLog20180505.log */; };
+		EFB8714220C0D6D00011AF78 /* saimTransactinLog20180504.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FB720C0D6CF0011AF78 /* saimTransactinLog20180504.log */; };
+		EFB8714320C0D6D00011AF78 /* saimTransactinLog20180510.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FB820C0D6CF0011AF78 /* saimTransactinLog20180510.log */; };
+		EFB8714420C0D6D00011AF78 /* saimTransactinLog20180528.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FB920C0D6CF0011AF78 /* saimTransactinLog20180528.log */; };
+		EFB8714520C0D6D00011AF78 /* saimTransactinLog20180514.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FBA20C0D6CF0011AF78 /* saimTransactinLog20180514.log */; };
+		EFB8714620C0D6D00011AF78 /* saimTransactinLog20180501.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FBB20C0D6CF0011AF78 /* saimTransactinLog20180501.log */; };
+		EFB8714720C0D6D00011AF78 /* saimTransactinLog20180515.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FBC20C0D6CF0011AF78 /* saimTransactinLog20180515.log */; };
+		EFB8714820C0D6D00011AF78 /* saimTransactinLog20180529.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FBD20C0D6CF0011AF78 /* saimTransactinLog20180529.log */; };
+		EFB8714920C0D6D00011AF78 /* saimTransactinLog20180503.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FBE20C0D6CF0011AF78 /* saimTransactinLog20180503.log */; };
+		EFB8714A20C0D6D00011AF78 /* saimTransactinLog20180517.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FBF20C0D6CF0011AF78 /* saimTransactinLog20180517.log */; };
+		EFB8714B20C0D6D00011AF78 /* saimTransactinLog20180516.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FC020C0D6CF0011AF78 /* saimTransactinLog20180516.log */; };
+		EFB8714C20C0D6D00011AF78 /* saimTransactinLog20180502.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FC120C0D6CF0011AF78 /* saimTransactinLog20180502.log */; };
+		EFB8714D20C0D6D00011AF78 /* saimTransactinLog20180527.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FC220C0D6CF0011AF78 /* saimTransactinLog20180527.log */; };
+		EFB8714E20C0D6D00011AF78 /* saimTransactinLog20180526.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FC320C0D6CF0011AF78 /* saimTransactinLog20180526.log */; };
+		EFB8714F20C0D6D00011AF78 /* saimTransactinLog20180530.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FC420C0D6CF0011AF78 /* saimTransactinLog20180530.log */; };
+		EFB8715020C0D6D00011AF78 /* saimTransactinLog20180524.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FC520C0D6CF0011AF78 /* saimTransactinLog20180524.log */; };
+		EFB8715120C0D6D00011AF78 /* saimTransactinLog20180518.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FC620C0D6CF0011AF78 /* saimTransactinLog20180518.log */; };
+		EFB8715220C0D6D00011AF78 /* saimTransactinLog20180519.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FC720C0D6CF0011AF78 /* saimTransactinLog20180519.log */; };
+		EFB8715320C0D6D00011AF78 /* saimTransactinLog20180525.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FC820C0D6CF0011AF78 /* saimTransactinLog20180525.log */; };
+		EFB8715420C0D6D00011AF78 /* saimTransactinLog20180509.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FC920C0D6CF0011AF78 /* saimTransactinLog20180509.log */; };
+		EFB8715520C0D6D00011AF78 /* saimTransactinLog20180521.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FCA20C0D6CF0011AF78 /* saimTransactinLog20180521.log */; };
+		EFB8715620C0D6D00011AF78 /* saimTransactinLog20180520.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FCB20C0D6CF0011AF78 /* saimTransactinLog20180520.log */; };
+		EFB8715720C0D6D00011AF78 /* saimTransactinLog20180508.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FCC20C0D6CF0011AF78 /* saimTransactinLog20180508.log */; };
+		EFB8715820C0D6D00011AF78 /* saimTransactinLog20180522.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FCD20C0D6CF0011AF78 /* saimTransactinLog20180522.log */; };
+		EFB8715920C0D6D00011AF78 /* saimTransactinLog20180523.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FCE20C0D6CF0011AF78 /* saimTransactinLog20180523.log */; };
+		EFB8715A20C0D6D00011AF78 /* SAIMProductAndProductionOrderInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FCF20C0D6CF0011AF78 /* SAIMProductAndProductionOrderInsert.php */; };
+		EFB8715B20C0D6D00011AF78 /* SAIMAccountInventorySummaryGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FD020C0D6CF0011AF78 /* SAIMAccountInventorySummaryGet.php */; };
+		EFB8715C20C0D6D00011AF78 /* saimTransactinLog20180525.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FD120C0D6CF0011AF78 /* saimTransactinLog20180525.log */; };
+		EFB8715D20C0D6D00011AF78 /* SAIMReceiptByMemberGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FD220C0D6CF0011AF78 /* SAIMReceiptByMemberGet.php */; };
+		EFB8715E20C0D6D00011AF78 /* SAIMProductSalesSetDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FD320C0D6CF0011AF78 /* SAIMProductSalesSetDelete.php */; };
+		EFB8715F20C0D6D00011AF78 /* analytics ดรพหะ.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FD420C0D6CF0011AF78 /* analytics ดรพหะ.txt */; };
+		EFB8716020C0D6D00011AF78 /* createQRCodeFileDorota.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FD520C0D6CF0011AF78 /* createQRCodeFileDorota.php */; };
+		EFB8716120C0D6D00011AF78 /* SAIMProductStatusUpdateByProductID.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FD620C0D6CF0011AF78 /* SAIMProductStatusUpdateByProductID.php */; };
+		EFB8716220C0D6D00011AF78 /* SAIMPostCustomerByReceiptIDGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FD720C0D6CF0011AF78 /* SAIMPostCustomerByReceiptIDGet.php */; };
+		EFB8716320C0D6D00011AF78 /* testJson.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FD820C0D6CF0011AF78 /* testJson.php */; };
+		EFB8716420C0D6D00011AF78 /* compare2.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FD920C0D6CF0011AF78 /* compare2.php */; };
+		EFB8716520C0D6D00011AF78 /* SAIMCompareInventoryNotMatchInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FDA20C0D6CF0011AF78 /* SAIMCompareInventoryNotMatchInsert.php */; };
+		EFB8716620C0D6D00011AF78 /* createQRCodeFile.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FDB20C0D6CF0011AF78 /* createQRCodeFile.php */; };
+		EFB8716720C0D6D00011AF78 /* SAIMProductCategory2Update.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FDC20C0D6CF0011AF78 /* SAIMProductCategory2Update.php */; };
+		EFB8716820C0D6D00011AF78 /* SAIMUserAccountUpdateMenuExtra.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FDD20C0D6CF0011AF78 /* SAIMUserAccountUpdateMenuExtra.php */; };
+		EFB8716920C0D6D00011AF78 /* compare3.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FDE20C0D6CF0011AF78 /* compare3.php */; };
+		EFB8716A20C0D6D00011AF78 /* SAIMRewardProgramDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FDF20C0D6CF0011AF78 /* SAIMRewardProgramDelete.php */; };
+		EFB8716B20C0D6D00011AF78 /* SAIMCredentialsValidate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FE020C0D6CF0011AF78 /* SAIMCredentialsValidate.php */; };
+		EFB8716C20C0D6D00011AF78 /* SAIMProductNameInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FE120C0D6CF0011AF78 /* SAIMProductNameInsert.php */; };
+		EFB8716D20C0D6D00011AF78 /* SAIMWriteLog.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FE220C0D6CF0011AF78 /* SAIMWriteLog.php */; };
+		EFB8716E20C0D6D00011AF78 /* reviewtest.html in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FE320C0D6CF0011AF78 /* reviewtest.html */; };
+		EFB8716F20C0D6D00011AF78 /* createQRCodeFileUpdating.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FE420C0D6CF0011AF78 /* createQRCodeFileUpdating.php */; };
+		EFB8717020C0D6D00011AF78 /* SAIMPostCustomerDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FE520C0D6CF0011AF78 /* SAIMPostCustomerDelete.php */; };
+		EFB8717120C0D6D00011AF78 /* compare1.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FE620C0D6CF0011AF78 /* compare1.php */; };
+		EFB8717220C0D6D00011AF78 /* analytics.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FE720C0D6CF0011AF78 /* analytics.txt */; };
+		EFB8717320C0D6D00011AF78 /* SAIMAccountReceiptHistorySummaryGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FE820C0D6CF0011AF78 /* SAIMAccountReceiptHistorySummaryGet.php */; };
+		EFB8717420C0D6D00011AF78 /* SAIMSettingDeviceTokenUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FE920C0D6CF0011AF78 /* SAIMSettingDeviceTokenUpdate.php */; };
+		EFB8717520C0D6D00011AF78 /* sendEmail.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FEB20C0D6CF0011AF78 /* sendEmail.php */; };
+		EFB8717620C0D6D00011AF78 /* generateqrcode.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FEC20C0D6CF0011AF78 /* generateqrcode.php */; };
+		EFB8717720C0D6D00011AF78 /* SAIMProductCategory2Insert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FED20C0D6CF0011AF78 /* SAIMProductCategory2Insert.php */; };
+		EFB8717820C0D6D00011AF78 /* SAIMLoginInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FEE20C0D6CF0011AF78 /* SAIMLoginInsert.php */; };
+		EFB8717920C0D6D00011AF78 /* allpageinside.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FEF20C0D6CF0011AF78 /* allpageinside.php */; };
+		EFB8717A20C0D6D00011AF78 /* SAIMProductNameUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FF020C0D6CF0011AF78 /* SAIMProductNameUpdate.php */; };
+		EFB8717B20C0D6D00011AF78 /* SAIMPushSyncSync.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FF120C0D6CF0011AF78 /* SAIMPushSyncSync.php */; };
+		EFB8717C20C0D6D00011AF78 /* testmail.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB86FF220C0D6CF0011AF78 /* testmail.php */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +451,400 @@
 		EFB86E4F20C0D6B80011AF78 /* saimUrlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saimUrlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB86E5320C0D6B80011AF78 /* saimUrlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = saimUrlUITests.m; sourceTree = "<group>"; };
 		EFB86E5520C0D6B80011AF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB86E6220C0D6CE0011AF78 /* saimTransactinLog20180314.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180314.log; sourceTree = "<group>"; };
+		EFB86E6320C0D6CE0011AF78 /* receipt.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = receipt.html; sourceTree = "<group>"; };
+		EFB86E6420C0D6CE0011AF78 /* contentpush.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = contentpush.php; sourceTree = "<group>"; };
+		EFB86E6520C0D6CE0011AF78 /* SAIMReceiptProductItemPreOrder.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemPreOrder.php; sourceTree = "<group>"; };
+		EFB86E6620C0D6CE0011AF78 /* blankSignature2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blankSignature2.png; sourceTree = "<group>"; };
+		EFB86E6720C0D6CE0011AF78 /* SAIMSalesSummaryByPeriodGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMSalesSummaryByPeriodGet.php; sourceTree = "<group>"; };
+		EFB86E6820C0D6CE0011AF78 /* SAIMProductDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductDelete.php; sourceTree = "<group>"; };
+		EFB86E6920C0D6CE0011AF78 /* SAIMProductSalesDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesDelete.php; sourceTree = "<group>"; };
+		EFB86E6A20C0D6CE0011AF78 /* SAIMReceiptProductItemAndProductUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemAndProductUpdate.php; sourceTree = "<group>"; };
+		EFB86E6B20C0D6CE0011AF78 /* saimTransactinLog20180315.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180315.log; sourceTree = "<group>"; };
+		EFB86E6C20C0D6CE0011AF78 /* sendEmail.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = sendEmail.php; sourceTree = "<group>"; };
+		EFB86E6D20C0D6CE0011AF78 /* testJsonEncodeThai.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testJsonEncodeThai.php; sourceTree = "<group>"; };
+		EFB86E6E20C0D6CE0011AF78 /* SAIMReceiptProductItemUnpost.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemUnpost.php; sourceTree = "<group>"; };
+		EFB86E6F20C0D6CE0011AF78 /* SAIMSettingUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMSettingUpdate.php; sourceTree = "<group>"; };
+		EFB86E7020C0D6CE0011AF78 /* SAIMReceiptAndProductBuyInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptAndProductBuyInsert.php; sourceTree = "<group>"; };
+		EFB86E7120C0D6CE0011AF78 /* SAIMMasterGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMMasterGet.php; sourceTree = "<group>"; };
+		EFB86E7220C0D6CE0011AF78 /* SAIMUserAccountUpdateMenuExtra0.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountUpdateMenuExtra0.php; sourceTree = "<group>"; };
+		EFB86E7320C0D6CE0011AF78 /* SAIMCustomerReceiptUpdateTrackingNo.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCustomerReceiptUpdateTrackingNo.php; sourceTree = "<group>"; };
+		EFB86E7420C0D6CE0011AF78 /* SAIMAccountReceiptHistoryDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptHistoryDelete.php; sourceTree = "<group>"; };
+		EFB86E7520C0D6CE0011AF78 /* SAIMProductStatusGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductStatusGet.php; sourceTree = "<group>"; };
+		EFB86E7620C0D6CE0011AF78 /* PHPMailerAutoload.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = PHPMailerAutoload.php; sourceTree = "<group>"; };
+		EFB86E7720C0D6CE0011AF78 /* SAIMPushSyncUpdateTimeSynced.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPushSyncUpdateTimeSynced.php; sourceTree = "<group>"; };
+		EFB86E7820C0D6CE0011AF78 /* SAIMEventDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMEventDelete.php; sourceTree = "<group>"; };
+		EFB86E7920C0D6CE0011AF78 /* SAIMItemRunningIDInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMItemRunningIDInsert.php; sourceTree = "<group>"; };
+		EFB86E7A20C0D6CE0011AF78 /* Sales.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Sales.php; sourceTree = "<group>"; };
+		EFB86E7B20C0D6CE0011AF78 /* SAIMUserAccountUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountUpdate.php; sourceTree = "<group>"; };
+		EFB86E7C20C0D6CE0011AF78 /* SAIMProductCategory1Update.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCategory1Update.php; sourceTree = "<group>"; };
+		EFB86E7D20C0D6CE0011AF78 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		EFB86E7E20C0D6CE0011AF78 /* SAIMSalesSummaryGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMSalesSummaryGet.php; sourceTree = "<group>"; };
+		EFB86E7F20C0D6CE0011AF78 /* SAIMCashAllocationInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCashAllocationInsert.php; sourceTree = "<group>"; };
+		EFB86E8020C0D6CE0011AF78 /* SAIMPushSyncUpdateByDeviceToken.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPushSyncUpdateByDeviceToken.php; sourceTree = "<group>"; };
+		EFB86E8120C0D6CE0011AF78 /* SAIMProductSalesUpdateCostMultiple.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesUpdateCostMultiple.php; sourceTree = "<group>"; };
+		EFB86E8220C0D6CE0011AF78 /* SAIMReceiptProductItemUnpostCM.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemUnpostCM.php; sourceTree = "<group>"; };
+		EFB86E8320C0D6CE0011AF78 /* index.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		EFB86E8420C0D6CE0011AF78 /* SAIMProductSizeUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSizeUpdate.php; sourceTree = "<group>"; };
+		EFB86E8520C0D6CE0011AF78 /* firstpageeng.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = firstpageeng.php; sourceTree = "<group>"; };
+		EFB86E8720C0D6CE0011AF78 /* SAIMMasterGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMMasterGet.php; sourceTree = "<group>"; };
+		EFB86E8820C0D6CE0011AF78 /* SAIMProductionOrderAddedGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductionOrderAddedGet.php; sourceTree = "<group>"; };
+		EFB86E8920C0D6CE0011AF78 /* SAIMProductSalesMultipleUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesMultipleUpdate.php; sourceTree = "<group>"; };
+		EFB86E8A20C0D6CE0011AF78 /* SAIMUserAccountInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountInsert.php; sourceTree = "<group>"; };
+		EFB86E8B20C0D6CE0011AF78 /* SAIMCashAllocationUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCashAllocationUpdate.php; sourceTree = "<group>"; };
+		EFB86E8C20C0D6CE0011AF78 /* SAIMProductCategory1Insert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCategory1Insert.php; sourceTree = "<group>"; };
+		EFB86E8D20C0D6CE0011AF78 /* SAIMEventGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMEventGet.php; sourceTree = "<group>"; };
+		EFB86E8E20C0D6CE0011AF78 /* SAIMReceiptUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptUpdate.php; sourceTree = "<group>"; };
+		EFB86E8F20C0D6CE0011AF78 /* testsqlinjection.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testsqlinjection.php; sourceTree = "<group>"; };
+		EFB86E9020C0D6CE0011AF78 /* testcon.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testcon.php; sourceTree = "<group>"; };
+		EFB86E9120C0D6CE0011AF78 /* SAIMProductSizeInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSizeInsert.php; sourceTree = "<group>"; };
+		EFB86E9220C0D6CE0011AF78 /* receiptdomain.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = receiptdomain.html; sourceTree = "<group>"; };
+		EFB86E9320C0D6CE0011AF78 /* ck.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ck.pem; sourceTree = "<group>"; };
+		EFB86E9420C0D6CE0011AF78 /* SAIMProductSalesUpdateCost.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesUpdateCost.php; sourceTree = "<group>"; };
+		EFB86E9520C0D6CE0011AF78 /* saimTransactinLog20180405.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180405.log; sourceTree = "<group>"; };
+		EFB86E9620C0D6CE0011AF78 /* SAIMProductCategory2Delete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCategory2Delete.php; sourceTree = "<group>"; };
+		EFB86E9720C0D6CE0011AF78 /* blankSignature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blankSignature.png; sourceTree = "<group>"; };
+		EFB86E9820C0D6CE0011AF78 /* urlinsertlistprefix.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urlinsertlistprefix.php; sourceTree = "<group>"; };
+		EFB86E9920C0D6CE0011AF78 /* SAIMRewardProgramUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMRewardProgramUpdate.php; sourceTree = "<group>"; };
+		EFB86E9A20C0D6CE0011AF78 /* SAIMCustomMadeUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCustomMadeUpdate.php; sourceTree = "<group>"; };
+		EFB86E9B20C0D6CE0011AF78 /* ProductItem14.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProductItem14.xls; sourceTree = "<group>"; };
+		EFB86E9C20C0D6CE0011AF78 /* SAIMPostCustomerInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPostCustomerInsert.php; sourceTree = "<group>"; };
+		EFB86E9D20C0D6CE0011AF78 /* ProductItem15.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProductItem15.xls; sourceTree = "<group>"; };
+		EFB86E9E20C0D6CE0011AF78 /* SAIMProductDeleteFromEvent.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductDeleteFromEvent.php; sourceTree = "<group>"; };
+		EFB86E9F20C0D6CE0011AF78 /* testRestartingTransaction.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testRestartingTransaction.php; sourceTree = "<group>"; };
+		EFB86EA020C0D6CE0011AF78 /* testdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testdate.php; sourceTree = "<group>"; };
+		EFB86EA120C0D6CE0011AF78 /* วิธีการ Setup เริ่มต้น Package Private Hosting11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "วิธีการ Setup เริ่มต้น Package Private Hosting11.pdf"; sourceTree = "<group>"; };
+		EFB86EA220C0D6CE0011AF78 /* SAIMCustomerReceiptUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCustomerReceiptUpdate.php; sourceTree = "<group>"; };
+		EFB86EA320C0D6CE0011AF78 /* generateSalesAllEvents.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = generateSalesAllEvents.php; sourceTree = "<group>"; };
+		EFB86EA420C0D6CE0011AF78 /* SAIMProductNameDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductNameDelete.php; sourceTree = "<group>"; };
+		EFB86EA520C0D6CE0011AF78 /* error test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "error test"; sourceTree = "<group>"; };
+		EFB86EA620C0D6CE0011AF78 /* createQRCodeFileTest24.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = createQRCodeFileTest24.php; sourceTree = "<group>"; };
+		EFB86EA720C0D6CE0011AF78 /* SAIMRewardProgramInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMRewardProgramInsert.php; sourceTree = "<group>"; };
+		EFB86EA820C0D6CE0011AF78 /* SAIMReceiptProductItemPreOrderCM.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemPreOrderCM.php; sourceTree = "<group>"; };
+		EFB86EAA20C0D6CE0011AF78 /* CertificateSigningRequest.certSigningRequest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CertificateSigningRequest.certSigningRequest; sourceTree = "<group>"; };
+		EFB86EAB20C0D6CE0011AF78 /* ck.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ck.pem; sourceTree = "<group>"; };
+		EFB86EAC20C0D6CE0011AF78 /* Certificates.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Certificates.p12; sourceTree = "<group>"; };
+		EFB86EAD20C0D6CE0011AF78 /* SAIMTransferHistoryGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMTransferHistoryGet.php; sourceTree = "<group>"; };
+		EFB86EAE20C0D6CE0011AF78 /* SAIMUserAccountEventDeleteThenMultipleInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountEventDeleteThenMultipleInsert.php; sourceTree = "<group>"; };
+		EFB86EAF20C0D6CE0011AF78 /* SAIMCustomerReceiptUpdatePostCustomerID.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCustomerReceiptUpdatePostCustomerID.php; sourceTree = "<group>"; };
+		EFB86EB020C0D6CE0011AF78 /* saimTransactinLog20180407.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180407.log; sourceTree = "<group>"; };
+		EFB86EB120C0D6CE0011AF78 /* SAIMReceiptAndReceiptProductItemDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptAndReceiptProductItemDelete.php; sourceTree = "<group>"; };
+		EFB86EB220C0D6CE0011AF78 /* testpush.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testpush.php; sourceTree = "<group>"; };
+		EFB86EB320C0D6CE0011AF78 /* SAIMUserAccountEventDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountEventDelete.php; sourceTree = "<group>"; };
+		EFB86EB520C0D6CE0011AF78 /* CertificateSigningRequest.certSigningRequest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CertificateSigningRequest.certSigningRequest; sourceTree = "<group>"; };
+		EFB86EB620C0D6CE0011AF78 /* ck.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ck.pem; sourceTree = "<group>"; };
+		EFB86EB720C0D6CE0011AF78 /* Certificates.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Certificates.p12; sourceTree = "<group>"; };
+		EFB86EB820C0D6CE0011AF78 /* SAIMPushSyncUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPushSyncUpdate.php; sourceTree = "<group>"; };
+		EFB86EB920C0D6CE0011AF78 /* SAIMAccountReceiptHistorySummaryByDateGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptHistorySummaryByDateGet.php; sourceTree = "<group>"; };
+		EFB86EBA20C0D6CE0011AF78 /* SAIMProductSalesSetInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesSetInsert.php; sourceTree = "<group>"; };
+		EFB86EBB20C0D6CE0011AF78 /* testvariable.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testvariable.php; sourceTree = "<group>"; };
+		EFB86EBC20C0D6CE0011AF78 /* createQRCodeFile201612.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = createQRCodeFile201612.php; sourceTree = "<group>"; };
+		EFB86EBD20C0D6CE0011AF78 /* SAIMProductionOrderDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductionOrderDelete.php; sourceTree = "<group>"; };
+		EFB86EBE20C0D6CE0011AF78 /* SAIMColorDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMColorDelete.php; sourceTree = "<group>"; };
+		EFB86EBF20C0D6CE0011AF78 /* test1.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = test1.php; sourceTree = "<group>"; };
+		EFB86EC120C0D6CE0011AF78 /* IMG_0028.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0028.jpg; sourceTree = "<group>"; };
+		EFB86EC220C0D6CE0011AF78 /* IMG_0160.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0160.jpg; sourceTree = "<group>"; };
+		EFB86EC320C0D6CE0011AF78 /* IMG_0161.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0161.jpg; sourceTree = "<group>"; };
+		EFB86EC420C0D6CE0011AF78 /* IMG_0015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0015.jpg; sourceTree = "<group>"; };
+		EFB86EC520C0D6CE0011AF78 /* IMG_0017.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0017.jpg; sourceTree = "<group>"; };
+		EFB86EC620C0D6CE0011AF78 /* IMG_0163.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0163.jpg; sourceTree = "<group>"; };
+		EFB86EC720C0D6CE0011AF78 /* IMG_0162.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0162.jpg; sourceTree = "<group>"; };
+		EFB86EC820C0D6CE0011AF78 /* IMG_0006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0006.jpg; sourceTree = "<group>"; };
+		EFB86EC920C0D6CE0011AF78 /* IMG_0013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0013.jpg; sourceTree = "<group>"; };
+		EFB86ECA20C0D6CE0011AF78 /* IMG_0159.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0159.jpg; sourceTree = "<group>"; };
+		EFB86ECB20C0D6CE0011AF78 /* IMG_0164.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0164.jpg; sourceTree = "<group>"; };
+		EFB86ECC20C0D6CE0011AF78 /* IMG_0088.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0088.jpg; sourceTree = "<group>"; };
+		EFB86ECD20C0D6CE0011AF78 /* IMG_0077.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0077.jpg; sourceTree = "<group>"; };
+		EFB86ECE20C0D6CE0011AF78 /* IMG_0063.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0063.jpg; sourceTree = "<group>"; };
+		EFB86ECF20C0D6CE0011AF78 /* IMG_0103.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0103.jpg; sourceTree = "<group>"; };
+		EFB86ED020C0D6CE0011AF78 /* IMG_0117.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0117.jpg; sourceTree = "<group>"; };
+		EFB86ED120C0D6CE0011AF78 /* IMG_0116.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0116.jpg; sourceTree = "<group>"; };
+		EFB86ED220C0D6CE0011AF78 /* IMG_0102.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0102.jpg; sourceTree = "<group>"; };
+		EFB86ED320C0D6CE0011AF78 /* IMG_0062.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0062.jpg; sourceTree = "<group>"; };
+		EFB86ED420C0D6CE0011AF78 /* IMG_0076.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0076.jpg; sourceTree = "<group>"; };
+		EFB86ED520C0D6CE0011AF78 /* IMG_0089.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0089.jpg; sourceTree = "<group>"; };
+		EFB86ED620C0D6CE0011AF78 /* IMG_0074.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0074.jpg; sourceTree = "<group>"; };
+		EFB86ED720C0D6CE0011AF78 /* IMG_0114.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0114.jpg; sourceTree = "<group>"; };
+		EFB86ED820C0D6CE0011AF78 /* IMG_0100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0100.jpg; sourceTree = "<group>"; };
+		EFB86ED920C0D6CE0011AF78 /* IMG_0129.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0129.jpg; sourceTree = "<group>"; };
+		EFB86EDA20C0D6CE0011AF78 /* IMG_0101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0101.jpg; sourceTree = "<group>"; };
+		EFB86EDB20C0D6CE0011AF78 /* IMG_0115.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0115.jpg; sourceTree = "<group>"; };
+		EFB86EDC20C0D6CE0011AF78 /* IMG_0075.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0075.jpg; sourceTree = "<group>"; };
+		EFB86EDD20C0D6CE0011AF78 /* IMG_0061.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0061.jpg; sourceTree = "<group>"; };
+		EFB86EDE20C0D6CE0011AF78 /* IMG_0065.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0065.jpg; sourceTree = "<group>"; };
+		EFB86EDF20C0D6CE0011AF78 /* IMG_0071.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0071.jpg; sourceTree = "<group>"; };
+		EFB86EE020C0D6CE0011AF78 /* IMG_0111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0111.jpg; sourceTree = "<group>"; };
+		EFB86EE120C0D6CE0011AF78 /* IMG_0105.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0105.jpg; sourceTree = "<group>"; };
+		EFB86EE220C0D6CE0011AF78 /* IMG_0104.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0104.jpg; sourceTree = "<group>"; };
+		EFB86EE320C0D6CE0011AF78 /* IMG_0110.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0110.jpg; sourceTree = "<group>"; };
+		EFB86EE420C0D6CE0011AF78 /* IMG_0070.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0070.jpg; sourceTree = "<group>"; };
+		EFB86EE520C0D6CE0011AF78 /* IMG_0064.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0064.jpg; sourceTree = "<group>"; };
+		EFB86EE620C0D6CE0011AF78 /* IMG_0099.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0099.jpg; sourceTree = "<group>"; };
+		EFB86EE720C0D6CE0011AF78 /* IMG_0072.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0072.jpg; sourceTree = "<group>"; };
+		EFB86EE820C0D6CE0011AF78 /* IMG_0066.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0066.jpg; sourceTree = "<group>"; };
+		EFB86EE920C0D6CE0011AF78 /* IMG_0106.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0106.jpg; sourceTree = "<group>"; };
+		EFB86EEA20C0D6CE0011AF78 /* IMG_0112.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0112.jpg; sourceTree = "<group>"; };
+		EFB86EEB20C0D6CE0011AF78 /* IMG_0113.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0113.jpg; sourceTree = "<group>"; };
+		EFB86EEC20C0D6CE0011AF78 /* IMG_0107.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0107.jpg; sourceTree = "<group>"; };
+		EFB86EED20C0D6CE0011AF78 /* IMG_0067.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0067.jpg; sourceTree = "<group>"; };
+		EFB86EEE20C0D6CE0011AF78 /* IMG_0073.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0073.jpg; sourceTree = "<group>"; };
+		EFB86EEF20C0D6CE0011AF78 /* IMG_0098.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0098.jpg; sourceTree = "<group>"; };
+		EFB86EF020C0D6CE0011AF78 /* IMG_0095.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0095.jpg; sourceTree = "<group>"; };
+		EFB86EF120C0D6CE0011AF78 /* IMG_0081.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0081.jpg; sourceTree = "<group>"; };
+		EFB86EF220C0D6CE0011AF78 /* IMG_0122.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0122.jpg; sourceTree = "<group>"; };
+		EFB86EF320C0D6CE0011AF78 /* IMG_0123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0123.jpg; sourceTree = "<group>"; };
+		EFB86EF420C0D6CE0011AF78 /* IMG_0080.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0080.jpg; sourceTree = "<group>"; };
+		EFB86EF520C0D6CE0011AF78 /* IMG_0094.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0094.jpg; sourceTree = "<group>"; };
+		EFB86EF620C0D6CE0011AF78 /* IMG_0082.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0082.jpg; sourceTree = "<group>"; };
+		EFB86EF720C0D6CE0011AF78 /* IMG_0096.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0096.jpg; sourceTree = "<group>"; };
+		EFB86EF820C0D6CE0011AF78 /* IMG_0069.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0069.jpg; sourceTree = "<group>"; };
+		EFB86EF920C0D6CE0011AF78 /* IMG_0135.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0135.jpg; sourceTree = "<group>"; };
+		EFB86EFA20C0D6CE0011AF78 /* IMG_0121.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0121.jpg; sourceTree = "<group>"; };
+		EFB86EFB20C0D6CE0011AF78 /* IMG_0109.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0109.jpg; sourceTree = "<group>"; };
+		EFB86EFC20C0D6CE0011AF78 /* IMG_0108.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0108.jpg; sourceTree = "<group>"; };
+		EFB86EFD20C0D6CE0011AF78 /* IMG_0120.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0120.jpg; sourceTree = "<group>"; };
+		EFB86EFE20C0D6CE0011AF78 /* IMG_0068.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0068.jpg; sourceTree = "<group>"; };
+		EFB86EFF20C0D6CE0011AF78 /* IMG_0097.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0097.jpg; sourceTree = "<group>"; };
+		EFB86F0020C0D6CE0011AF78 /* IMG_0083.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0083.jpg; sourceTree = "<group>"; };
+		EFB86F0120C0D6CE0011AF78 /* IMG_0087.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0087.jpg; sourceTree = "<group>"; };
+		EFB86F0220C0D6CE0011AF78 /* IMG_0093.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0093.jpg; sourceTree = "<group>"; };
+		EFB86F0320C0D6CE0011AF78 /* IMG_0118.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0118.jpg; sourceTree = "<group>"; };
+		EFB86F0420C0D6CE0011AF78 /* IMG_0124.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0124.jpg; sourceTree = "<group>"; };
+		EFB86F0520C0D6CE0011AF78 /* IMG_0125.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0125.jpg; sourceTree = "<group>"; };
+		EFB86F0620C0D6CE0011AF78 /* IMG_0131.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0131.jpg; sourceTree = "<group>"; };
+		EFB86F0720C0D6CE0011AF78 /* IMG_0119.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0119.jpg; sourceTree = "<group>"; };
+		EFB86F0820C0D6CE0011AF78 /* IMG_0079.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0079.jpg; sourceTree = "<group>"; };
+		EFB86F0920C0D6CE0011AF78 /* IMG_0092.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0092.jpg; sourceTree = "<group>"; };
+		EFB86F0A20C0D6CE0011AF78 /* IMG_0086.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0086.jpg; sourceTree = "<group>"; };
+		EFB86F0B20C0D6CE0011AF78 /* IMG_0090.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0090.jpg; sourceTree = "<group>"; };
+		EFB86F0C20C0D6CE0011AF78 /* IMG_0084.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0084.jpg; sourceTree = "<group>"; };
+		EFB86F0D20C0D6CE0011AF78 /* IMG_0127.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0127.jpg; sourceTree = "<group>"; };
+		EFB86F0E20C0D6CE0011AF78 /* IMG_0133.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0133.jpg; sourceTree = "<group>"; };
+		EFB86F0F20C0D6CE0011AF78 /* IMG_0132.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0132.jpg; sourceTree = "<group>"; };
+		EFB86F1020C0D6CE0011AF78 /* IMG_0085.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0085.jpg; sourceTree = "<group>"; };
+		EFB86F1120C0D6CE0011AF78 /* IMG_0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0091.jpg; sourceTree = "<group>"; };
+		EFB86F1220C0D6CE0011AF78 /* IMG_0155.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0155.jpg; sourceTree = "<group>"; };
+		EFB86F1320C0D6CE0011AF78 /* IMG_0022.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0022.jpg; sourceTree = "<group>"; };
+		EFB86F1420C0D6CE0011AF78 /* IMG_0156.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0156.jpg; sourceTree = "<group>"; };
+		EFB86F1520C0D6CE0011AF78 /* IMG_0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0033.jpg; sourceTree = "<group>"; };
+		EFB86F1620C0D6CE0011AF78 /* IMG_0032.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0032.jpg; sourceTree = "<group>"; };
+		EFB86F1720C0D6CE0011AF78 /* IMG_0018.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0018.jpg; sourceTree = "<group>"; };
+		EFB86F1820C0D6CE0011AF78 /* IMG_0030.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0030.jpg; sourceTree = "<group>"; };
+		EFB86F1920C0D6CE0011AF78 /* IMG_0031.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0031.jpg; sourceTree = "<group>"; };
+		EFB86F1A20C0D6CE0011AF78 /* SAIMReceiptProductItemUpdateCMIn.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemUpdateCMIn.php; sourceTree = "<group>"; };
+		EFB86F1B20C0D6CE0011AF78 /* SAIMProductTransferGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductTransferGet.php; sourceTree = "<group>"; };
+		EFB86F1C20C0D6CE0011AF78 /* SAIMProductEventIDUpdateByProductID.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductEventIDUpdateByProductID.php; sourceTree = "<group>"; };
+		EFB86F1D20C0D6CE0011AF78 /* SAIMAccountInventoryInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountInventoryInsert.php; sourceTree = "<group>"; };
+		EFB86F1E20C0D6CE0011AF78 /* viewSAIM.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = viewSAIM.php; sourceTree = "<group>"; };
+		EFB86F1F20C0D6CE0011AF78 /* oneSignature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oneSignature.png; sourceTree = "<group>"; };
+		EFB86F2020C0D6CE0011AF78 /* SAIMProductSalesSetUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesSetUpdate.php; sourceTree = "<group>"; };
+		EFB86F2120C0D6CE0011AF78 /* SAIMRewardProgramGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMRewardProgramGet.php; sourceTree = "<group>"; };
+		EFB86F2220C0D6CE0011AF78 /* SAIMAccountReceiptHistoryGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptHistoryGet.php; sourceTree = "<group>"; };
+		EFB86F2320C0D6CE0011AF78 /* createQRCodeFileTest23.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = createQRCodeFileTest23.php; sourceTree = "<group>"; };
+		EFB86F2420C0D6CE0011AF78 /* SAIMAccountReceiptHistoryDetailGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptHistoryDetailGet.php; sourceTree = "<group>"; };
+		EFB86F2520C0D6CE0011AF78 /* reviewtest2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reviewtest2.html; sourceTree = "<group>"; };
+		EFB86F2620C0D6CE0011AF78 /* downloadImage.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = downloadImage.php; sourceTree = "<group>"; };
+		EFB86F2720C0D6CE0011AF78 /* dburl20180217.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = dburl20180217.zip; sourceTree = "<group>"; };
+		EFB86F2820C0D6CE0011AF78 /* createtabletest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = createtabletest; sourceTree = "<group>"; };
+		EFB86F2920C0D6CE0011AF78 /* SAIMProductSizeDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSizeDelete.php; sourceTree = "<group>"; };
+		EFB86F2A20C0D6CE0011AF78 /* saimTransactinLog20171230.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20171230.log; sourceTree = "<group>"; };
+		EFB86F2C20C0D6CE0011AF78 /* IMG_0028.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0028.jpg; sourceTree = "<group>"; };
+		EFB86F2D20C0D6CE0011AF78 /* IMG_0015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0015.jpg; sourceTree = "<group>"; };
+		EFB86F2E20C0D6CE0011AF78 /* IMG_0017.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0017.jpg; sourceTree = "<group>"; };
+		EFB86F2F20C0D6CE0011AF78 /* IMG_0006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0006.jpg; sourceTree = "<group>"; };
+		EFB86F3020C0D6CE0011AF78 /* IMG_0013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0013.jpg; sourceTree = "<group>"; };
+		EFB86F3120C0D6CE0011AF78 /* IMG_0088.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0088.jpg; sourceTree = "<group>"; };
+		EFB86F3220C0D6CE0011AF78 /* IMG_0077.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0077.jpg; sourceTree = "<group>"; };
+		EFB86F3320C0D6CE0011AF78 /* IMG_0063.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0063.jpg; sourceTree = "<group>"; };
+		EFB86F3420C0D6CE0011AF78 /* IMG_0103.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0103.jpg; sourceTree = "<group>"; };
+		EFB86F3520C0D6CE0011AF78 /* IMG_0117.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0117.jpg; sourceTree = "<group>"; };
+		EFB86F3620C0D6CE0011AF78 /* IMG_0116.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0116.jpg; sourceTree = "<group>"; };
+		EFB86F3720C0D6CE0011AF78 /* IMG_0102.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0102.jpg; sourceTree = "<group>"; };
+		EFB86F3820C0D6CE0011AF78 /* IMG_0062.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0062.jpg; sourceTree = "<group>"; };
+		EFB86F3920C0D6CE0011AF78 /* IMG_0076.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0076.jpg; sourceTree = "<group>"; };
+		EFB86F3A20C0D6CE0011AF78 /* IMG_0089.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0089.jpg; sourceTree = "<group>"; };
+		EFB86F3B20C0D6CE0011AF78 /* IMG_0074.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0074.jpg; sourceTree = "<group>"; };
+		EFB86F3C20C0D6CE0011AF78 /* IMG_0114.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0114.jpg; sourceTree = "<group>"; };
+		EFB86F3D20C0D6CE0011AF78 /* IMG_0100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0100.jpg; sourceTree = "<group>"; };
+		EFB86F3E20C0D6CE0011AF78 /* IMG_0101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0101.jpg; sourceTree = "<group>"; };
+		EFB86F3F20C0D6CE0011AF78 /* IMG_0115.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0115.jpg; sourceTree = "<group>"; };
+		EFB86F4020C0D6CE0011AF78 /* IMG_0075.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0075.jpg; sourceTree = "<group>"; };
+		EFB86F4120C0D6CE0011AF78 /* IMG_0061.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0061.jpg; sourceTree = "<group>"; };
+		EFB86F4220C0D6CE0011AF78 /* IMG_0065.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0065.jpg; sourceTree = "<group>"; };
+		EFB86F4320C0D6CE0011AF78 /* IMG_0071.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0071.jpg; sourceTree = "<group>"; };
+		EFB86F4420C0D6CE0011AF78 /* IMG_0111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0111.jpg; sourceTree = "<group>"; };
+		EFB86F4520C0D6CE0011AF78 /* IMG_0105.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0105.jpg; sourceTree = "<group>"; };
+		EFB86F4620C0D6CE0011AF78 /* IMG_0104.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0104.jpg; sourceTree = "<group>"; };
+		EFB86F4720C0D6CE0011AF78 /* IMG_0110.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0110.jpg; sourceTree = "<group>"; };
+		EFB86F4820C0D6CE0011AF78 /* IMG_0070.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0070.jpg; sourceTree = "<group>"; };
+		EFB86F4920C0D6CE0011AF78 /* IMG_0064.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0064.jpg; sourceTree = "<group>"; };
+		EFB86F4A20C0D6CE0011AF78 /* IMG_0099.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0099.jpg; sourceTree = "<group>"; };
+		EFB86F4B20C0D6CE0011AF78 /* IMG_0072.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0072.jpg; sourceTree = "<group>"; };
+		EFB86F4C20C0D6CE0011AF78 /* IMG_0066.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0066.jpg; sourceTree = "<group>"; };
+		EFB86F4D20C0D6CE0011AF78 /* IMG_0106.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0106.jpg; sourceTree = "<group>"; };
+		EFB86F4E20C0D6CE0011AF78 /* IMG_0112.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0112.jpg; sourceTree = "<group>"; };
+		EFB86F4F20C0D6CE0011AF78 /* IMG_0113.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0113.jpg; sourceTree = "<group>"; };
+		EFB86F5020C0D6CE0011AF78 /* IMG_0107.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0107.jpg; sourceTree = "<group>"; };
+		EFB86F5120C0D6CE0011AF78 /* IMG_0067.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0067.jpg; sourceTree = "<group>"; };
+		EFB86F5220C0D6CE0011AF78 /* IMG_0073.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0073.jpg; sourceTree = "<group>"; };
+		EFB86F5320C0D6CE0011AF78 /* IMG_0098.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0098.jpg; sourceTree = "<group>"; };
+		EFB86F5420C0D6CE0011AF78 /* IMG_0095.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0095.jpg; sourceTree = "<group>"; };
+		EFB86F5520C0D6CE0011AF78 /* IMG_0081.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0081.jpg; sourceTree = "<group>"; };
+		EFB86F5620C0D6CE0011AF78 /* IMG_0122.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0122.jpg; sourceTree = "<group>"; };
+		EFB86F5720C0D6CE0011AF78 /* IMG_0123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0123.jpg; sourceTree = "<group>"; };
+		EFB86F5820C0D6CE0011AF78 /* IMG_0080.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0080.jpg; sourceTree = "<group>"; };
+		EFB86F5920C0D6CE0011AF78 /* IMG_0094.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0094.jpg; sourceTree = "<group>"; };
+		EFB86F5A20C0D6CE0011AF78 /* IMG_0082.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0082.jpg; sourceTree = "<group>"; };
+		EFB86F5B20C0D6CE0011AF78 /* IMG_0096.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0096.jpg; sourceTree = "<group>"; };
+		EFB86F5C20C0D6CE0011AF78 /* IMG_0069.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0069.jpg; sourceTree = "<group>"; };
+		EFB86F5D20C0D6CE0011AF78 /* IMG_0121.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0121.jpg; sourceTree = "<group>"; };
+		EFB86F5E20C0D6CE0011AF78 /* IMG_0109.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0109.jpg; sourceTree = "<group>"; };
+		EFB86F5F20C0D6CE0011AF78 /* IMG_0108.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0108.jpg; sourceTree = "<group>"; };
+		EFB86F6020C0D6CE0011AF78 /* IMG_0120.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0120.jpg; sourceTree = "<group>"; };
+		EFB86F6120C0D6CE0011AF78 /* IMG_0068.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0068.jpg; sourceTree = "<group>"; };
+		EFB86F6220C0D6CE0011AF78 /* IMG_0097.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0097.jpg; sourceTree = "<group>"; };
+		EFB86F6320C0D6CE0011AF78 /* IMG_0083.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0083.jpg; sourceTree = "<group>"; };
+		EFB86F6420C0D6CE0011AF78 /* IMG_0087.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0087.jpg; sourceTree = "<group>"; };
+		EFB86F6520C0D6CE0011AF78 /* IMG_0093.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0093.jpg; sourceTree = "<group>"; };
+		EFB86F6620C0D6CE0011AF78 /* IMG_0118.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0118.jpg; sourceTree = "<group>"; };
+		EFB86F6720C0D6CE0011AF78 /* IMG_0124.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0124.jpg; sourceTree = "<group>"; };
+		EFB86F6820C0D6CE0011AF78 /* IMG_0125.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0125.jpg; sourceTree = "<group>"; };
+		EFB86F6920C0D6CE0011AF78 /* IMG_0119.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0119.jpg; sourceTree = "<group>"; };
+		EFB86F6A20C0D6CE0011AF78 /* IMG_0079.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0079.jpg; sourceTree = "<group>"; };
+		EFB86F6B20C0D6CE0011AF78 /* IMG_0092.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0092.jpg; sourceTree = "<group>"; };
+		EFB86F6C20C0D6CE0011AF78 /* IMG_0086.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0086.jpg; sourceTree = "<group>"; };
+		EFB86F6D20C0D6CE0011AF78 /* IMG_0090.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0090.jpg; sourceTree = "<group>"; };
+		EFB86F6E20C0D6CE0011AF78 /* IMG_0084.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0084.jpg; sourceTree = "<group>"; };
+		EFB86F6F20C0D6CE0011AF78 /* IMG_0127.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0127.jpg; sourceTree = "<group>"; };
+		EFB86F7020C0D6CE0011AF78 /* IMG_0085.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0085.jpg; sourceTree = "<group>"; };
+		EFB86F7120C0D6CE0011AF78 /* IMG_0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0091.jpg; sourceTree = "<group>"; };
+		EFB86F7220C0D6CE0011AF78 /* IMG_0022.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0022.jpg; sourceTree = "<group>"; };
+		EFB86F7320C0D6CE0011AF78 /* IMG_0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0033.jpg; sourceTree = "<group>"; };
+		EFB86F7420C0D6CE0011AF78 /* IMG_0032.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0032.jpg; sourceTree = "<group>"; };
+		EFB86F7520C0D6CE0011AF78 /* IMG_0018.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0018.jpg; sourceTree = "<group>"; };
+		EFB86F7620C0D6CE0011AF78 /* IMG_0030.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0030.jpg; sourceTree = "<group>"; };
+		EFB86F7720C0D6CE0011AF78 /* IMG_0031.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0031.jpg; sourceTree = "<group>"; };
+		EFB86F7820C0D6CE0011AF78 /* SAIMAccountReceiptByPeriodGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptByPeriodGet.php; sourceTree = "<group>"; };
+		EFB86F7920C0D6CE0011AF78 /* SAIMUserAccountUpdateCountNotSeen.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountUpdateCountNotSeen.php; sourceTree = "<group>"; };
+		EFB86F7A20C0D6CE0011AF78 /* SAIMUserAccountDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountDelete.php; sourceTree = "<group>"; };
+		EFB86F7B20C0D6CE0011AF78 /* SAIMProductCategory1Delete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCategory1Delete.php; sourceTree = "<group>"; };
+		EFB86F7C20C0D6CE0011AF78 /* dbConnect.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = dbConnect.php; sourceTree = "<group>"; };
+		EFB86F7D20C0D6CE0011AF78 /* SAIMAccountInventoryAddedGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountInventoryAddedGet.php; sourceTree = "<group>"; };
+		EFB86F7E20C0D6CE0011AF78 /* ~$DorotaQRCode20171208.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = "~$DorotaQRCode20171208.xls"; sourceTree = "<absolute>"; };
+		EFB86F7F20C0D6CE0011AF78 /* allpageinsideeng.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = allpageinsideeng.php; sourceTree = "<group>"; };
+		EFB86F8020C0D6CE0011AF78 /* SAIMDeviceInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMDeviceInsert.php; sourceTree = "<group>"; };
+		EFB86F8120C0D6CE0011AF78 /* SAIMSalesDetailGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMSalesDetailGet.php; sourceTree = "<group>"; };
+		EFB86F8220C0D6CE0011AF78 /* oneSignature2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oneSignature2.png; sourceTree = "<group>"; };
+		EFB86F8320C0D6CE0011AF78 /* oneSignature3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oneSignature3.png; sourceTree = "<group>"; };
+		EFB86F8420C0D6CE0011AF78 /* SAIMProductUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductUpdate.php; sourceTree = "<group>"; };
+		EFB86F8520C0D6CE0011AF78 /* SAIMProductSalesUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesUpdate.php; sourceTree = "<group>"; };
+		EFB86F8620C0D6CE0011AF78 /* DorotaQRCode25601209_005226.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = DorotaQRCode25601209_005226.xls; sourceTree = "<group>"; };
+		EFB86F8720C0D6CE0011AF78 /* uploadPhoto.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = uploadPhoto.php; sourceTree = "<group>"; };
+		EFB86F8820C0D6CE0011AF78 /* SAIMEventInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMEventInsert.php; sourceTree = "<group>"; };
+		EFB86F8920C0D6CE0011AF78 /* receipt copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "receipt copy.html"; sourceTree = "<group>"; };
+		EFB86F8A20C0D6CE0011AF78 /* SAIMCompareInventoryUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCompareInventoryUpdate.php; sourceTree = "<group>"; };
+		EFB86F8B20C0D6CE0011AF78 /* storytelling */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = storytelling; sourceTree = "<group>"; };
+		EFB86F8C20C0D6CE0011AF78 /* DorotaQRCode20171208.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = DorotaQRCode20171208.xls; sourceTree = "<group>"; };
+		EFB86F8D20C0D6CE0011AF78 /* SAIMProductSalesDeleteProductNameID.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesDeleteProductNameID.php; sourceTree = "<group>"; };
+		EFB86F8E20C0D6CE0011AF78 /* SAIMProductEventIDUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductEventIDUpdate.php; sourceTree = "<group>"; };
+		EFB86F8F20C0D6CF0011AF78 /* fail log.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fail log.xlsx"; sourceTree = "<group>"; };
+		EFB86F9020C0D6CF0011AF78 /* thankyou.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = thankyou.php; sourceTree = "<group>"; };
+		EFB86F9120C0D6CF0011AF78 /* SAIMProductInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductInsert.php; sourceTree = "<group>"; };
+		EFB86F9220C0D6CF0011AF78 /* saimTransactinLog20180409.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180409.log; sourceTree = "<group>"; };
+		EFB86F9320C0D6CF0011AF78 /* createQRCodeFileTesting.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = createQRCodeFileTesting.php; sourceTree = "<group>"; };
+		EFB86F9420C0D6CF0011AF78 /* SAIMProductSalesInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesInsert.php; sourceTree = "<group>"; };
+		EFB86F9520C0D6CF0011AF78 /* SAIMMemberAndPointGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMMemberAndPointGet.php; sourceTree = "<group>"; };
+		EFB86F9620C0D6CF0011AF78 /* SAIMEventUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMEventUpdate.php; sourceTree = "<group>"; };
+		EFB86F9720C0D6CF0011AF78 /* SAIMMasterGetTest.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMMasterGetTest.php; sourceTree = "<group>"; };
+		EFB86F9820C0D6CF0011AF78 /* php_error.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = php_error.log; sourceTree = "<group>"; };
+		EFB86F9920C0D6CF0011AF78 /* SAIMCompareInventoryInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCompareInventoryInsert.php; sourceTree = "<group>"; };
+		EFB86F9A20C0D6CF0011AF78 /* urlinsertprefix.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urlinsertprefix.php; sourceTree = "<group>"; };
+		EFB86F9B20C0D6CF0011AF78 /* jillSignature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jillSignature.png; sourceTree = "<group>"; };
+		EFB86F9C20C0D6CF0011AF78 /* Excel2007.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Excel2007.php; sourceTree = "<group>"; };
+		EFB86F9D20C0D6CF0011AF78 /* SAIMSalesByChannelGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMSalesByChannelGet.php; sourceTree = "<group>"; };
+		EFB86F9E20C0D6CF0011AF78 /* urlupdateprefix.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urlupdateprefix.php; sourceTree = "<group>"; };
+		EFB86F9F20C0D6CF0011AF78 /* SAIMEmailQRCode.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMEmailQRCode.php; sourceTree = "<group>"; };
+		EFB86FA020C0D6CF0011AF78 /* saimTransactinLog20180321.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180321.log; sourceTree = "<group>"; };
+		EFB86FA120C0D6CF0011AF78 /* SAIMEventCostInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMEventCostInsert.php; sourceTree = "<group>"; };
+		EFB86FA220C0D6CF0011AF78 /* SAIMProductCostUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCostUpdate.php; sourceTree = "<group>"; };
+		EFB86FA320C0D6CF0011AF78 /* SAIMColorUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMColorUpdate.php; sourceTree = "<group>"; };
+		EFB86FA420C0D6CF0011AF78 /* compare4.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = compare4.php; sourceTree = "<group>"; };
+		EFB86FA520C0D6CF0011AF78 /* SAIMProductSalesUpdateDetail.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesUpdateDetail.php; sourceTree = "<group>"; };
+		EFB86FA620C0D6CF0011AF78 /* SAIMAccountReceiptInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptInsert.php; sourceTree = "<group>"; };
+		EFB86FA720C0D6CF0011AF78 /* firstpage.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = firstpage.php; sourceTree = "<group>"; };
+		EFB86FA820C0D6CF0011AF78 /* SAIMReceiptProductItemPreOrderEventID.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptProductItemPreOrderEventID.php; sourceTree = "<group>"; };
+		EFB86FA920C0D6CF0011AF78 /* SAIMAccountInventoryDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountInventoryDelete.php; sourceTree = "<group>"; };
+		EFB86FAA20C0D6CF0011AF78 /* SAIMAccountReceiptGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptGet.php; sourceTree = "<group>"; };
+		EFB86FAB20C0D6CF0011AF78 /* SAIMProductionOrderInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductionOrderInsert.php; sourceTree = "<group>"; };
+		EFB86FAC20C0D6CF0011AF78 /* SAIMUserAccountDeviceTokenUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountDeviceTokenUpdate.php; sourceTree = "<group>"; };
+		EFB86FAD20C0D6CF0011AF78 /* downloadFile.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = downloadFile.php; sourceTree = "<group>"; };
+		EFB86FAE20C0D6CF0011AF78 /* SAIMImageRunningIDInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMImageRunningIDInsert.php; sourceTree = "<group>"; };
+		EFB86FAF20C0D6CF0011AF78 /* SAIMColorInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMColorInsert.php; sourceTree = "<group>"; };
+		EFB86FB120C0D6CF0011AF78 /* saimTransactinLog20180506.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180506.log; sourceTree = "<group>"; };
+		EFB86FB220C0D6CF0011AF78 /* saimTransactinLog20180512.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180512.log; sourceTree = "<group>"; };
+		EFB86FB320C0D6CF0011AF78 /* saimTransactinLog20180513.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180513.log; sourceTree = "<group>"; };
+		EFB86FB420C0D6CF0011AF78 /* saimTransactinLog20180507.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180507.log; sourceTree = "<group>"; };
+		EFB86FB520C0D6CF0011AF78 /* saimTransactinLog20180511.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180511.log; sourceTree = "<group>"; };
+		EFB86FB620C0D6CF0011AF78 /* saimTransactinLog20180505.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180505.log; sourceTree = "<group>"; };
+		EFB86FB720C0D6CF0011AF78 /* saimTransactinLog20180504.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180504.log; sourceTree = "<group>"; };
+		EFB86FB820C0D6CF0011AF78 /* saimTransactinLog20180510.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180510.log; sourceTree = "<group>"; };
+		EFB86FB920C0D6CF0011AF78 /* saimTransactinLog20180528.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180528.log; sourceTree = "<group>"; };
+		EFB86FBA20C0D6CF0011AF78 /* saimTransactinLog20180514.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180514.log; sourceTree = "<group>"; };
+		EFB86FBB20C0D6CF0011AF78 /* saimTransactinLog20180501.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180501.log; sourceTree = "<group>"; };
+		EFB86FBC20C0D6CF0011AF78 /* saimTransactinLog20180515.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180515.log; sourceTree = "<group>"; };
+		EFB86FBD20C0D6CF0011AF78 /* saimTransactinLog20180529.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180529.log; sourceTree = "<group>"; };
+		EFB86FBE20C0D6CF0011AF78 /* saimTransactinLog20180503.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180503.log; sourceTree = "<group>"; };
+		EFB86FBF20C0D6CF0011AF78 /* saimTransactinLog20180517.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180517.log; sourceTree = "<group>"; };
+		EFB86FC020C0D6CF0011AF78 /* saimTransactinLog20180516.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180516.log; sourceTree = "<group>"; };
+		EFB86FC120C0D6CF0011AF78 /* saimTransactinLog20180502.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180502.log; sourceTree = "<group>"; };
+		EFB86FC220C0D6CF0011AF78 /* saimTransactinLog20180527.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180527.log; sourceTree = "<group>"; };
+		EFB86FC320C0D6CF0011AF78 /* saimTransactinLog20180526.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180526.log; sourceTree = "<group>"; };
+		EFB86FC420C0D6CF0011AF78 /* saimTransactinLog20180530.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180530.log; sourceTree = "<group>"; };
+		EFB86FC520C0D6CF0011AF78 /* saimTransactinLog20180524.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180524.log; sourceTree = "<group>"; };
+		EFB86FC620C0D6CF0011AF78 /* saimTransactinLog20180518.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180518.log; sourceTree = "<group>"; };
+		EFB86FC720C0D6CF0011AF78 /* saimTransactinLog20180519.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180519.log; sourceTree = "<group>"; };
+		EFB86FC820C0D6CF0011AF78 /* saimTransactinLog20180525.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180525.log; sourceTree = "<group>"; };
+		EFB86FC920C0D6CF0011AF78 /* saimTransactinLog20180509.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180509.log; sourceTree = "<group>"; };
+		EFB86FCA20C0D6CF0011AF78 /* saimTransactinLog20180521.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180521.log; sourceTree = "<group>"; };
+		EFB86FCB20C0D6CF0011AF78 /* saimTransactinLog20180520.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180520.log; sourceTree = "<group>"; };
+		EFB86FCC20C0D6CF0011AF78 /* saimTransactinLog20180508.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180508.log; sourceTree = "<group>"; };
+		EFB86FCD20C0D6CF0011AF78 /* saimTransactinLog20180522.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180522.log; sourceTree = "<group>"; };
+		EFB86FCE20C0D6CF0011AF78 /* saimTransactinLog20180523.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180523.log; sourceTree = "<group>"; };
+		EFB86FCF20C0D6CF0011AF78 /* SAIMProductAndProductionOrderInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductAndProductionOrderInsert.php; sourceTree = "<group>"; };
+		EFB86FD020C0D6CF0011AF78 /* SAIMAccountInventorySummaryGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountInventorySummaryGet.php; sourceTree = "<group>"; };
+		EFB86FD120C0D6CF0011AF78 /* saimTransactinLog20180525.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saimTransactinLog20180525.log; sourceTree = "<group>"; };
+		EFB86FD220C0D6CF0011AF78 /* SAIMReceiptByMemberGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMReceiptByMemberGet.php; sourceTree = "<group>"; };
+		EFB86FD320C0D6CF0011AF78 /* SAIMProductSalesSetDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductSalesSetDelete.php; sourceTree = "<group>"; };
+		EFB86FD420C0D6CF0011AF78 /* analytics ดรพหะ.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "analytics ดรพหะ.txt"; sourceTree = "<group>"; };
+		EFB86FD520C0D6CF0011AF78 /* createQRCodeFileDorota.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = createQRCodeFileDorota.php; sourceTree = "<group>"; };
+		EFB86FD620C0D6CF0011AF78 /* SAIMProductStatusUpdateByProductID.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductStatusUpdateByProductID.php; sourceTree = "<group>"; };
+		EFB86FD720C0D6CF0011AF78 /* SAIMPostCustomerByReceiptIDGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPostCustomerByReceiptIDGet.php; sourceTree = "<group>"; };
+		EFB86FD820C0D6CF0011AF78 /* testJson.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testJson.php; sourceTree = "<group>"; };
+		EFB86FD920C0D6CF0011AF78 /* compare2.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = compare2.php; sourceTree = "<group>"; };
+		EFB86FDA20C0D6CF0011AF78 /* SAIMCompareInventoryNotMatchInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCompareInventoryNotMatchInsert.php; sourceTree = "<group>"; };
+		EFB86FDB20C0D6CF0011AF78 /* createQRCodeFile.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = createQRCodeFile.php; sourceTree = "<group>"; };
+		EFB86FDC20C0D6CF0011AF78 /* SAIMProductCategory2Update.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCategory2Update.php; sourceTree = "<group>"; };
+		EFB86FDD20C0D6CF0011AF78 /* SAIMUserAccountUpdateMenuExtra.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMUserAccountUpdateMenuExtra.php; sourceTree = "<group>"; };
+		EFB86FDE20C0D6CF0011AF78 /* compare3.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = compare3.php; sourceTree = "<group>"; };
+		EFB86FDF20C0D6CF0011AF78 /* SAIMRewardProgramDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMRewardProgramDelete.php; sourceTree = "<group>"; };
+		EFB86FE020C0D6CF0011AF78 /* SAIMCredentialsValidate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMCredentialsValidate.php; sourceTree = "<group>"; };
+		EFB86FE120C0D6CF0011AF78 /* SAIMProductNameInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductNameInsert.php; sourceTree = "<group>"; };
+		EFB86FE220C0D6CF0011AF78 /* SAIMWriteLog.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMWriteLog.php; sourceTree = "<group>"; };
+		EFB86FE320C0D6CF0011AF78 /* reviewtest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reviewtest.html; sourceTree = "<group>"; };
+		EFB86FE420C0D6CF0011AF78 /* createQRCodeFileUpdating.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = createQRCodeFileUpdating.php; sourceTree = "<group>"; };
+		EFB86FE520C0D6CF0011AF78 /* SAIMPostCustomerDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPostCustomerDelete.php; sourceTree = "<group>"; };
+		EFB86FE620C0D6CF0011AF78 /* compare1.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = compare1.php; sourceTree = "<group>"; };
+		EFB86FE720C0D6CF0011AF78 /* analytics.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = analytics.txt; sourceTree = "<group>"; };
+		EFB86FE820C0D6CF0011AF78 /* SAIMAccountReceiptHistorySummaryGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMAccountReceiptHistorySummaryGet.php; sourceTree = "<group>"; };
+		EFB86FE920C0D6CF0011AF78 /* SAIMSettingDeviceTokenUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMSettingDeviceTokenUpdate.php; sourceTree = "<group>"; };
+		EFB86FEB20C0D6CF0011AF78 /* sendEmail.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = sendEmail.php; sourceTree = "<group>"; };
+		EFB86FEC20C0D6CF0011AF78 /* generateqrcode.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = generateqrcode.php; sourceTree = "<group>"; };
+		EFB86FED20C0D6CF0011AF78 /* SAIMProductCategory2Insert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductCategory2Insert.php; sourceTree = "<group>"; };
+		EFB86FEE20C0D6CF0011AF78 /* SAIMLoginInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMLoginInsert.php; sourceTree = "<group>"; };
+		EFB86FEF20C0D6CF0011AF78 /* allpageinside.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = allpageinside.php; sourceTree = "<group>"; };
+		EFB86FF020C0D6CF0011AF78 /* SAIMProductNameUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMProductNameUpdate.php; sourceTree = "<group>"; };
+		EFB86FF120C0D6CF0011AF78 /* SAIMPushSyncSync.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SAIMPushSyncSync.php; sourceTree = "<group>"; };
+		EFB86FF220C0D6CF0011AF78 /* testmail.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testmail.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +875,7 @@
 		EFB86E1D20C0D6B60011AF78 = {
 			isa = PBXGroup;
 			children = (
+				EFB86E6120C0D6CE0011AF78 /* db url */,
 				EFB86E2820C0D6B60011AF78 /* saimUrl */,
 				EFB86E4720C0D6B80011AF78 /* saimUrlTests */,
 				EFB86E5220C0D6B80011AF78 /* saimUrlUITests */,
@@ -140,6 +929,463 @@
 				EFB86E5520C0D6B80011AF78 /* Info.plist */,
 			);
 			path = saimUrlUITests;
+			sourceTree = "<group>";
+		};
+		EFB86E6120C0D6CE0011AF78 /* db url */ = {
+			isa = PBXGroup;
+			children = (
+				EFB86E6220C0D6CE0011AF78 /* saimTransactinLog20180314.log */,
+				EFB86E6320C0D6CE0011AF78 /* receipt.html */,
+				EFB86E6420C0D6CE0011AF78 /* contentpush.php */,
+				EFB86E6520C0D6CE0011AF78 /* SAIMReceiptProductItemPreOrder.php */,
+				EFB86E6620C0D6CE0011AF78 /* blankSignature2.png */,
+				EFB86E6720C0D6CE0011AF78 /* SAIMSalesSummaryByPeriodGet.php */,
+				EFB86E6820C0D6CE0011AF78 /* SAIMProductDelete.php */,
+				EFB86E6920C0D6CE0011AF78 /* SAIMProductSalesDelete.php */,
+				EFB86E6A20C0D6CE0011AF78 /* SAIMReceiptProductItemAndProductUpdate.php */,
+				EFB86E6B20C0D6CE0011AF78 /* saimTransactinLog20180315.log */,
+				EFB86E6C20C0D6CE0011AF78 /* sendEmail.php */,
+				EFB86E6D20C0D6CE0011AF78 /* testJsonEncodeThai.php */,
+				EFB86E6E20C0D6CE0011AF78 /* SAIMReceiptProductItemUnpost.php */,
+				EFB86E6F20C0D6CE0011AF78 /* SAIMSettingUpdate.php */,
+				EFB86E7020C0D6CE0011AF78 /* SAIMReceiptAndProductBuyInsert.php */,
+				EFB86E7120C0D6CE0011AF78 /* SAIMMasterGet.php */,
+				EFB86E7220C0D6CE0011AF78 /* SAIMUserAccountUpdateMenuExtra0.php */,
+				EFB86E7320C0D6CE0011AF78 /* SAIMCustomerReceiptUpdateTrackingNo.php */,
+				EFB86E7420C0D6CE0011AF78 /* SAIMAccountReceiptHistoryDelete.php */,
+				EFB86E7520C0D6CE0011AF78 /* SAIMProductStatusGet.php */,
+				EFB86E7620C0D6CE0011AF78 /* PHPMailerAutoload.php */,
+				EFB86E7720C0D6CE0011AF78 /* SAIMPushSyncUpdateTimeSynced.php */,
+				EFB86E7820C0D6CE0011AF78 /* SAIMEventDelete.php */,
+				EFB86E7920C0D6CE0011AF78 /* SAIMItemRunningIDInsert.php */,
+				EFB86E7A20C0D6CE0011AF78 /* Sales.php */,
+				EFB86E7B20C0D6CE0011AF78 /* SAIMUserAccountUpdate.php */,
+				EFB86E7C20C0D6CE0011AF78 /* SAIMProductCategory1Update.php */,
+				EFB86E7D20C0D6CE0011AF78 /* index.html */,
+				EFB86E7E20C0D6CE0011AF78 /* SAIMSalesSummaryGet.php */,
+				EFB86E7F20C0D6CE0011AF78 /* SAIMCashAllocationInsert.php */,
+				EFB86E8020C0D6CE0011AF78 /* SAIMPushSyncUpdateByDeviceToken.php */,
+				EFB86E8120C0D6CE0011AF78 /* SAIMProductSalesUpdateCostMultiple.php */,
+				EFB86E8220C0D6CE0011AF78 /* SAIMReceiptProductItemUnpostCM.php */,
+				EFB86E8320C0D6CE0011AF78 /* index.php */,
+				EFB86E8420C0D6CE0011AF78 /* SAIMProductSizeUpdate.php */,
+				EFB86E8520C0D6CE0011AF78 /* firstpageeng.php */,
+				EFB86E8620C0D6CE0011AF78 /* masterget saim */,
+				EFB86E8820C0D6CE0011AF78 /* SAIMProductionOrderAddedGet.php */,
+				EFB86E8920C0D6CE0011AF78 /* SAIMProductSalesMultipleUpdate.php */,
+				EFB86E8A20C0D6CE0011AF78 /* SAIMUserAccountInsert.php */,
+				EFB86E8B20C0D6CE0011AF78 /* SAIMCashAllocationUpdate.php */,
+				EFB86E8C20C0D6CE0011AF78 /* SAIMProductCategory1Insert.php */,
+				EFB86E8D20C0D6CE0011AF78 /* SAIMEventGet.php */,
+				EFB86E8E20C0D6CE0011AF78 /* SAIMReceiptUpdate.php */,
+				EFB86E8F20C0D6CE0011AF78 /* testsqlinjection.php */,
+				EFB86E9020C0D6CE0011AF78 /* testcon.php */,
+				EFB86E9120C0D6CE0011AF78 /* SAIMProductSizeInsert.php */,
+				EFB86E9220C0D6CE0011AF78 /* receiptdomain.html */,
+				EFB86E9320C0D6CE0011AF78 /* ck.pem */,
+				EFB86E9420C0D6CE0011AF78 /* SAIMProductSalesUpdateCost.php */,
+				EFB86E9520C0D6CE0011AF78 /* saimTransactinLog20180405.log */,
+				EFB86E9620C0D6CE0011AF78 /* SAIMProductCategory2Delete.php */,
+				EFB86E9720C0D6CE0011AF78 /* blankSignature.png */,
+				EFB86E9820C0D6CE0011AF78 /* urlinsertlistprefix.php */,
+				EFB86E9920C0D6CE0011AF78 /* SAIMRewardProgramUpdate.php */,
+				EFB86E9A20C0D6CE0011AF78 /* SAIMCustomMadeUpdate.php */,
+				EFB86E9B20C0D6CE0011AF78 /* ProductItem14.xls */,
+				EFB86E9C20C0D6CE0011AF78 /* SAIMPostCustomerInsert.php */,
+				EFB86E9D20C0D6CE0011AF78 /* ProductItem15.xls */,
+				EFB86E9E20C0D6CE0011AF78 /* SAIMProductDeleteFromEvent.php */,
+				EFB86E9F20C0D6CE0011AF78 /* testRestartingTransaction.php */,
+				EFB86EA020C0D6CE0011AF78 /* testdate.php */,
+				EFB86EA120C0D6CE0011AF78 /* วิธีการ Setup เริ่มต้น Package Private Hosting11.pdf */,
+				EFB86EA220C0D6CE0011AF78 /* SAIMCustomerReceiptUpdate.php */,
+				EFB86EA320C0D6CE0011AF78 /* generateSalesAllEvents.php */,
+				EFB86EA420C0D6CE0011AF78 /* SAIMProductNameDelete.php */,
+				EFB86EA520C0D6CE0011AF78 /* error test */,
+				EFB86EA620C0D6CE0011AF78 /* createQRCodeFileTest24.php */,
+				EFB86EA720C0D6CE0011AF78 /* SAIMRewardProgramInsert.php */,
+				EFB86EA820C0D6CE0011AF78 /* SAIMReceiptProductItemPreOrderCM.php */,
+				EFB86EA920C0D6CE0011AF78 /* certificate push saimtest */,
+				EFB86EAD20C0D6CE0011AF78 /* SAIMTransferHistoryGet.php */,
+				EFB86EAE20C0D6CE0011AF78 /* SAIMUserAccountEventDeleteThenMultipleInsert.php */,
+				EFB86EAF20C0D6CE0011AF78 /* SAIMCustomerReceiptUpdatePostCustomerID.php */,
+				EFB86EB020C0D6CE0011AF78 /* saimTransactinLog20180407.log */,
+				EFB86EB120C0D6CE0011AF78 /* SAIMReceiptAndReceiptProductItemDelete.php */,
+				EFB86EB220C0D6CE0011AF78 /* testpush.php */,
+				EFB86EB320C0D6CE0011AF78 /* SAIMUserAccountEventDelete.php */,
+				EFB86EB420C0D6CE0011AF78 /* certificate push */,
+				EFB86EB820C0D6CE0011AF78 /* SAIMPushSyncUpdate.php */,
+				EFB86EB920C0D6CE0011AF78 /* SAIMAccountReceiptHistorySummaryByDateGet.php */,
+				EFB86EBA20C0D6CE0011AF78 /* SAIMProductSalesSetInsert.php */,
+				EFB86EBB20C0D6CE0011AF78 /* testvariable.php */,
+				EFB86EBC20C0D6CE0011AF78 /* createQRCodeFile201612.php */,
+				EFB86EBD20C0D6CE0011AF78 /* SAIMProductionOrderDelete.php */,
+				EFB86EBE20C0D6CE0011AF78 /* SAIMColorDelete.php */,
+				EFB86EBF20C0D6CE0011AF78 /* test1.php */,
+				EFB86EC020C0D6CE0011AF78 /* Uploads */,
+				EFB86F1A20C0D6CE0011AF78 /* SAIMReceiptProductItemUpdateCMIn.php */,
+				EFB86F1B20C0D6CE0011AF78 /* SAIMProductTransferGet.php */,
+				EFB86F1C20C0D6CE0011AF78 /* SAIMProductEventIDUpdateByProductID.php */,
+				EFB86F1D20C0D6CE0011AF78 /* SAIMAccountInventoryInsert.php */,
+				EFB86F1E20C0D6CE0011AF78 /* viewSAIM.php */,
+				EFB86F1F20C0D6CE0011AF78 /* oneSignature.png */,
+				EFB86F2020C0D6CE0011AF78 /* SAIMProductSalesSetUpdate.php */,
+				EFB86F2120C0D6CE0011AF78 /* SAIMRewardProgramGet.php */,
+				EFB86F2220C0D6CE0011AF78 /* SAIMAccountReceiptHistoryGet.php */,
+				EFB86F2320C0D6CE0011AF78 /* createQRCodeFileTest23.php */,
+				EFB86F2420C0D6CE0011AF78 /* SAIMAccountReceiptHistoryDetailGet.php */,
+				EFB86F2520C0D6CE0011AF78 /* reviewtest2.html */,
+				EFB86F2620C0D6CE0011AF78 /* downloadImage.php */,
+				EFB86F2720C0D6CE0011AF78 /* dburl20180217.zip */,
+				EFB86F2820C0D6CE0011AF78 /* createtabletest */,
+				EFB86F2920C0D6CE0011AF78 /* SAIMProductSizeDelete.php */,
+				EFB86F2A20C0D6CE0011AF78 /* saimTransactinLog20171230.log */,
+				EFB86F2B20C0D6CE0011AF78 /* img_upload */,
+				EFB86F7820C0D6CE0011AF78 /* SAIMAccountReceiptByPeriodGet.php */,
+				EFB86F7920C0D6CE0011AF78 /* SAIMUserAccountUpdateCountNotSeen.php */,
+				EFB86F7A20C0D6CE0011AF78 /* SAIMUserAccountDelete.php */,
+				EFB86F7B20C0D6CE0011AF78 /* SAIMProductCategory1Delete.php */,
+				EFB86F7C20C0D6CE0011AF78 /* dbConnect.php */,
+				EFB86F7D20C0D6CE0011AF78 /* SAIMAccountInventoryAddedGet.php */,
+				EFB86F7E20C0D6CE0011AF78 /* ~$DorotaQRCode20171208.xls */,
+				EFB86F7F20C0D6CE0011AF78 /* allpageinsideeng.php */,
+				EFB86F8020C0D6CE0011AF78 /* SAIMDeviceInsert.php */,
+				EFB86F8120C0D6CE0011AF78 /* SAIMSalesDetailGet.php */,
+				EFB86F8220C0D6CE0011AF78 /* oneSignature2.png */,
+				EFB86F8320C0D6CE0011AF78 /* oneSignature3.png */,
+				EFB86F8420C0D6CE0011AF78 /* SAIMProductUpdate.php */,
+				EFB86F8520C0D6CE0011AF78 /* SAIMProductSalesUpdate.php */,
+				EFB86F8620C0D6CE0011AF78 /* DorotaQRCode25601209_005226.xls */,
+				EFB86F8720C0D6CE0011AF78 /* uploadPhoto.php */,
+				EFB86F8820C0D6CE0011AF78 /* SAIMEventInsert.php */,
+				EFB86F8920C0D6CE0011AF78 /* receipt copy.html */,
+				EFB86F8A20C0D6CE0011AF78 /* SAIMCompareInventoryUpdate.php */,
+				EFB86F8B20C0D6CE0011AF78 /* storytelling */,
+				EFB86F8C20C0D6CE0011AF78 /* DorotaQRCode20171208.xls */,
+				EFB86F8D20C0D6CE0011AF78 /* SAIMProductSalesDeleteProductNameID.php */,
+				EFB86F8E20C0D6CE0011AF78 /* SAIMProductEventIDUpdate.php */,
+				EFB86F8F20C0D6CF0011AF78 /* fail log.xlsx */,
+				EFB86F9020C0D6CF0011AF78 /* thankyou.php */,
+				EFB86F9120C0D6CF0011AF78 /* SAIMProductInsert.php */,
+				EFB86F9220C0D6CF0011AF78 /* saimTransactinLog20180409.log */,
+				EFB86F9320C0D6CF0011AF78 /* createQRCodeFileTesting.php */,
+				EFB86F9420C0D6CF0011AF78 /* SAIMProductSalesInsert.php */,
+				EFB86F9520C0D6CF0011AF78 /* SAIMMemberAndPointGet.php */,
+				EFB86F9620C0D6CF0011AF78 /* SAIMEventUpdate.php */,
+				EFB86F9720C0D6CF0011AF78 /* SAIMMasterGetTest.php */,
+				EFB86F9820C0D6CF0011AF78 /* php_error.log */,
+				EFB86F9920C0D6CF0011AF78 /* SAIMCompareInventoryInsert.php */,
+				EFB86F9A20C0D6CF0011AF78 /* urlinsertprefix.php */,
+				EFB86F9B20C0D6CF0011AF78 /* jillSignature.png */,
+				EFB86F9C20C0D6CF0011AF78 /* Excel2007.php */,
+				EFB86F9D20C0D6CF0011AF78 /* SAIMSalesByChannelGet.php */,
+				EFB86F9E20C0D6CF0011AF78 /* urlupdateprefix.php */,
+				EFB86F9F20C0D6CF0011AF78 /* SAIMEmailQRCode.php */,
+				EFB86FA020C0D6CF0011AF78 /* saimTransactinLog20180321.log */,
+				EFB86FA120C0D6CF0011AF78 /* SAIMEventCostInsert.php */,
+				EFB86FA220C0D6CF0011AF78 /* SAIMProductCostUpdate.php */,
+				EFB86FA320C0D6CF0011AF78 /* SAIMColorUpdate.php */,
+				EFB86FA420C0D6CF0011AF78 /* compare4.php */,
+				EFB86FA520C0D6CF0011AF78 /* SAIMProductSalesUpdateDetail.php */,
+				EFB86FA620C0D6CF0011AF78 /* SAIMAccountReceiptInsert.php */,
+				EFB86FA720C0D6CF0011AF78 /* firstpage.php */,
+				EFB86FA820C0D6CF0011AF78 /* SAIMReceiptProductItemPreOrderEventID.php */,
+				EFB86FA920C0D6CF0011AF78 /* SAIMAccountInventoryDelete.php */,
+				EFB86FAA20C0D6CF0011AF78 /* SAIMAccountReceiptGet.php */,
+				EFB86FAB20C0D6CF0011AF78 /* SAIMProductionOrderInsert.php */,
+				EFB86FAC20C0D6CF0011AF78 /* SAIMUserAccountDeviceTokenUpdate.php */,
+				EFB86FAD20C0D6CF0011AF78 /* downloadFile.php */,
+				EFB86FAE20C0D6CF0011AF78 /* SAIMImageRunningIDInsert.php */,
+				EFB86FAF20C0D6CF0011AF78 /* SAIMColorInsert.php */,
+				EFB86FB020C0D6CF0011AF78 /* logCheckFail */,
+				EFB86FCF20C0D6CF0011AF78 /* SAIMProductAndProductionOrderInsert.php */,
+				EFB86FD020C0D6CF0011AF78 /* SAIMAccountInventorySummaryGet.php */,
+				EFB86FD120C0D6CF0011AF78 /* saimTransactinLog20180525.log */,
+				EFB86FD220C0D6CF0011AF78 /* SAIMReceiptByMemberGet.php */,
+				EFB86FD320C0D6CF0011AF78 /* SAIMProductSalesSetDelete.php */,
+				EFB86FD420C0D6CF0011AF78 /* analytics ดรพหะ.txt */,
+				EFB86FD520C0D6CF0011AF78 /* createQRCodeFileDorota.php */,
+				EFB86FD620C0D6CF0011AF78 /* SAIMProductStatusUpdateByProductID.php */,
+				EFB86FD720C0D6CF0011AF78 /* SAIMPostCustomerByReceiptIDGet.php */,
+				EFB86FD820C0D6CF0011AF78 /* testJson.php */,
+				EFB86FD920C0D6CF0011AF78 /* compare2.php */,
+				EFB86FDA20C0D6CF0011AF78 /* SAIMCompareInventoryNotMatchInsert.php */,
+				EFB86FDB20C0D6CF0011AF78 /* createQRCodeFile.php */,
+				EFB86FDC20C0D6CF0011AF78 /* SAIMProductCategory2Update.php */,
+				EFB86FDD20C0D6CF0011AF78 /* SAIMUserAccountUpdateMenuExtra.php */,
+				EFB86FDE20C0D6CF0011AF78 /* compare3.php */,
+				EFB86FDF20C0D6CF0011AF78 /* SAIMRewardProgramDelete.php */,
+				EFB86FE020C0D6CF0011AF78 /* SAIMCredentialsValidate.php */,
+				EFB86FE120C0D6CF0011AF78 /* SAIMProductNameInsert.php */,
+				EFB86FE220C0D6CF0011AF78 /* SAIMWriteLog.php */,
+				EFB86FE320C0D6CF0011AF78 /* reviewtest.html */,
+				EFB86FE420C0D6CF0011AF78 /* createQRCodeFileUpdating.php */,
+				EFB86FE520C0D6CF0011AF78 /* SAIMPostCustomerDelete.php */,
+				EFB86FE620C0D6CF0011AF78 /* compare1.php */,
+				EFB86FE720C0D6CF0011AF78 /* analytics.txt */,
+				EFB86FE820C0D6CF0011AF78 /* SAIMAccountReceiptHistorySummaryGet.php */,
+				EFB86FE920C0D6CF0011AF78 /* SAIMSettingDeviceTokenUpdate.php */,
+				EFB86FEA20C0D6CF0011AF78 /* outside folder */,
+				EFB86FED20C0D6CF0011AF78 /* SAIMProductCategory2Insert.php */,
+				EFB86FEE20C0D6CF0011AF78 /* SAIMLoginInsert.php */,
+				EFB86FEF20C0D6CF0011AF78 /* allpageinside.php */,
+				EFB86FF020C0D6CF0011AF78 /* SAIMProductNameUpdate.php */,
+				EFB86FF120C0D6CF0011AF78 /* SAIMPushSyncSync.php */,
+				EFB86FF220C0D6CF0011AF78 /* testmail.php */,
+			);
+			path = "db url";
+			sourceTree = "<group>";
+		};
+		EFB86E8620C0D6CE0011AF78 /* masterget saim */ = {
+			isa = PBXGroup;
+			children = (
+				EFB86E8720C0D6CE0011AF78 /* SAIMMasterGet.php */,
+			);
+			path = "masterget saim";
+			sourceTree = "<group>";
+		};
+		EFB86EA920C0D6CE0011AF78 /* certificate push saimtest */ = {
+			isa = PBXGroup;
+			children = (
+				EFB86EAA20C0D6CE0011AF78 /* CertificateSigningRequest.certSigningRequest */,
+				EFB86EAB20C0D6CE0011AF78 /* ck.pem */,
+				EFB86EAC20C0D6CE0011AF78 /* Certificates.p12 */,
+			);
+			path = "certificate push saimtest";
+			sourceTree = "<group>";
+		};
+		EFB86EB420C0D6CE0011AF78 /* certificate push */ = {
+			isa = PBXGroup;
+			children = (
+				EFB86EB520C0D6CE0011AF78 /* CertificateSigningRequest.certSigningRequest */,
+				EFB86EB620C0D6CE0011AF78 /* ck.pem */,
+				EFB86EB720C0D6CE0011AF78 /* Certificates.p12 */,
+			);
+			path = "certificate push";
+			sourceTree = "<group>";
+		};
+		EFB86EC020C0D6CE0011AF78 /* Uploads */ = {
+			isa = PBXGroup;
+			children = (
+				EFB86EC120C0D6CE0011AF78 /* IMG_0028.jpg */,
+				EFB86EC220C0D6CE0011AF78 /* IMG_0160.jpg */,
+				EFB86EC320C0D6CE0011AF78 /* IMG_0161.jpg */,
+				EFB86EC420C0D6CE0011AF78 /* IMG_0015.jpg */,
+				EFB86EC520C0D6CE0011AF78 /* IMG_0017.jpg */,
+				EFB86EC620C0D6CE0011AF78 /* IMG_0163.jpg */,
+				EFB86EC720C0D6CE0011AF78 /* IMG_0162.jpg */,
+				EFB86EC820C0D6CE0011AF78 /* IMG_0006.jpg */,
+				EFB86EC920C0D6CE0011AF78 /* IMG_0013.jpg */,
+				EFB86ECA20C0D6CE0011AF78 /* IMG_0159.jpg */,
+				EFB86ECB20C0D6CE0011AF78 /* IMG_0164.jpg */,
+				EFB86ECC20C0D6CE0011AF78 /* IMG_0088.jpg */,
+				EFB86ECD20C0D6CE0011AF78 /* IMG_0077.jpg */,
+				EFB86ECE20C0D6CE0011AF78 /* IMG_0063.jpg */,
+				EFB86ECF20C0D6CE0011AF78 /* IMG_0103.jpg */,
+				EFB86ED020C0D6CE0011AF78 /* IMG_0117.jpg */,
+				EFB86ED120C0D6CE0011AF78 /* IMG_0116.jpg */,
+				EFB86ED220C0D6CE0011AF78 /* IMG_0102.jpg */,
+				EFB86ED320C0D6CE0011AF78 /* IMG_0062.jpg */,
+				EFB86ED420C0D6CE0011AF78 /* IMG_0076.jpg */,
+				EFB86ED520C0D6CE0011AF78 /* IMG_0089.jpg */,
+				EFB86ED620C0D6CE0011AF78 /* IMG_0074.jpg */,
+				EFB86ED720C0D6CE0011AF78 /* IMG_0114.jpg */,
+				EFB86ED820C0D6CE0011AF78 /* IMG_0100.jpg */,
+				EFB86ED920C0D6CE0011AF78 /* IMG_0129.jpg */,
+				EFB86EDA20C0D6CE0011AF78 /* IMG_0101.jpg */,
+				EFB86EDB20C0D6CE0011AF78 /* IMG_0115.jpg */,
+				EFB86EDC20C0D6CE0011AF78 /* IMG_0075.jpg */,
+				EFB86EDD20C0D6CE0011AF78 /* IMG_0061.jpg */,
+				EFB86EDE20C0D6CE0011AF78 /* IMG_0065.jpg */,
+				EFB86EDF20C0D6CE0011AF78 /* IMG_0071.jpg */,
+				EFB86EE020C0D6CE0011AF78 /* IMG_0111.jpg */,
+				EFB86EE120C0D6CE0011AF78 /* IMG_0105.jpg */,
+				EFB86EE220C0D6CE0011AF78 /* IMG_0104.jpg */,
+				EFB86EE320C0D6CE0011AF78 /* IMG_0110.jpg */,
+				EFB86EE420C0D6CE0011AF78 /* IMG_0070.jpg */,
+				EFB86EE520C0D6CE0011AF78 /* IMG_0064.jpg */,
+				EFB86EE620C0D6CE0011AF78 /* IMG_0099.jpg */,
+				EFB86EE720C0D6CE0011AF78 /* IMG_0072.jpg */,
+				EFB86EE820C0D6CE0011AF78 /* IMG_0066.jpg */,
+				EFB86EE920C0D6CE0011AF78 /* IMG_0106.jpg */,
+				EFB86EEA20C0D6CE0011AF78 /* IMG_0112.jpg */,
+				EFB86EEB20C0D6CE0011AF78 /* IMG_0113.jpg */,
+				EFB86EEC20C0D6CE0011AF78 /* IMG_0107.jpg */,
+				EFB86EED20C0D6CE0011AF78 /* IMG_0067.jpg */,
+				EFB86EEE20C0D6CE0011AF78 /* IMG_0073.jpg */,
+				EFB86EEF20C0D6CE0011AF78 /* IMG_0098.jpg */,
+				EFB86EF020C0D6CE0011AF78 /* IMG_0095.jpg */,
+				EFB86EF120C0D6CE0011AF78 /* IMG_0081.jpg */,
+				EFB86EF220C0D6CE0011AF78 /* IMG_0122.jpg */,
+				EFB86EF320C0D6CE0011AF78 /* IMG_0123.jpg */,
+				EFB86EF420C0D6CE0011AF78 /* IMG_0080.jpg */,
+				EFB86EF520C0D6CE0011AF78 /* IMG_0094.jpg */,
+				EFB86EF620C0D6CE0011AF78 /* IMG_0082.jpg */,
+				EFB86EF720C0D6CE0011AF78 /* IMG_0096.jpg */,
+				EFB86EF820C0D6CE0011AF78 /* IMG_0069.jpg */,
+				EFB86EF920C0D6CE0011AF78 /* IMG_0135.jpg */,
+				EFB86EFA20C0D6CE0011AF78 /* IMG_0121.jpg */,
+				EFB86EFB20C0D6CE0011AF78 /* IMG_0109.jpg */,
+				EFB86EFC20C0D6CE0011AF78 /* IMG_0108.jpg */,
+				EFB86EFD20C0D6CE0011AF78 /* IMG_0120.jpg */,
+				EFB86EFE20C0D6CE0011AF78 /* IMG_0068.jpg */,
+				EFB86EFF20C0D6CE0011AF78 /* IMG_0097.jpg */,
+				EFB86F0020C0D6CE0011AF78 /* IMG_0083.jpg */,
+				EFB86F0120C0D6CE0011AF78 /* IMG_0087.jpg */,
+				EFB86F0220C0D6CE0011AF78 /* IMG_0093.jpg */,
+				EFB86F0320C0D6CE0011AF78 /* IMG_0118.jpg */,
+				EFB86F0420C0D6CE0011AF78 /* IMG_0124.jpg */,
+				EFB86F0520C0D6CE0011AF78 /* IMG_0125.jpg */,
+				EFB86F0620C0D6CE0011AF78 /* IMG_0131.jpg */,
+				EFB86F0720C0D6CE0011AF78 /* IMG_0119.jpg */,
+				EFB86F0820C0D6CE0011AF78 /* IMG_0079.jpg */,
+				EFB86F0920C0D6CE0011AF78 /* IMG_0092.jpg */,
+				EFB86F0A20C0D6CE0011AF78 /* IMG_0086.jpg */,
+				EFB86F0B20C0D6CE0011AF78 /* IMG_0090.jpg */,
+				EFB86F0C20C0D6CE0011AF78 /* IMG_0084.jpg */,
+				EFB86F0D20C0D6CE0011AF78 /* IMG_0127.jpg */,
+				EFB86F0E20C0D6CE0011AF78 /* IMG_0133.jpg */,
+				EFB86F0F20C0D6CE0011AF78 /* IMG_0132.jpg */,
+				EFB86F1020C0D6CE0011AF78 /* IMG_0085.jpg */,
+				EFB86F1120C0D6CE0011AF78 /* IMG_0091.jpg */,
+				EFB86F1220C0D6CE0011AF78 /* IMG_0155.jpg */,
+				EFB86F1320C0D6CE0011AF78 /* IMG_0022.jpg */,
+				EFB86F1420C0D6CE0011AF78 /* IMG_0156.jpg */,
+				EFB86F1520C0D6CE0011AF78 /* IMG_0033.jpg */,
+				EFB86F1620C0D6CE0011AF78 /* IMG_0032.jpg */,
+				EFB86F1720C0D6CE0011AF78 /* IMG_0018.jpg */,
+				EFB86F1820C0D6CE0011AF78 /* IMG_0030.jpg */,
+				EFB86F1920C0D6CE0011AF78 /* IMG_0031.jpg */,
+			);
+			path = Uploads;
+			sourceTree = "<group>";
+		};
+		EFB86F2B20C0D6CE0011AF78 /* img_upload */ = {
+			isa = PBXGroup;
+			children = (
+				EFB86F2C20C0D6CE0011AF78 /* IMG_0028.jpg */,
+				EFB86F2D20C0D6CE0011AF78 /* IMG_0015.jpg */,
+				EFB86F2E20C0D6CE0011AF78 /* IMG_0017.jpg */,
+				EFB86F2F20C0D6CE0011AF78 /* IMG_0006.jpg */,
+				EFB86F3020C0D6CE0011AF78 /* IMG_0013.jpg */,
+				EFB86F3120C0D6CE0011AF78 /* IMG_0088.jpg */,
+				EFB86F3220C0D6CE0011AF78 /* IMG_0077.jpg */,
+				EFB86F3320C0D6CE0011AF78 /* IMG_0063.jpg */,
+				EFB86F3420C0D6CE0011AF78 /* IMG_0103.jpg */,
+				EFB86F3520C0D6CE0011AF78 /* IMG_0117.jpg */,
+				EFB86F3620C0D6CE0011AF78 /* IMG_0116.jpg */,
+				EFB86F3720C0D6CE0011AF78 /* IMG_0102.jpg */,
+				EFB86F3820C0D6CE0011AF78 /* IMG_0062.jpg */,
+				EFB86F3920C0D6CE0011AF78 /* IMG_0076.jpg */,
+				EFB86F3A20C0D6CE0011AF78 /* IMG_0089.jpg */,
+				EFB86F3B20C0D6CE0011AF78 /* IMG_0074.jpg */,
+				EFB86F3C20C0D6CE0011AF78 /* IMG_0114.jpg */,
+				EFB86F3D20C0D6CE0011AF78 /* IMG_0100.jpg */,
+				EFB86F3E20C0D6CE0011AF78 /* IMG_0101.jpg */,
+				EFB86F3F20C0D6CE0011AF78 /* IMG_0115.jpg */,
+				EFB86F4020C0D6CE0011AF78 /* IMG_0075.jpg */,
+				EFB86F4120C0D6CE0011AF78 /* IMG_0061.jpg */,
+				EFB86F4220C0D6CE0011AF78 /* IMG_0065.jpg */,
+				EFB86F4320C0D6CE0011AF78 /* IMG_0071.jpg */,
+				EFB86F4420C0D6CE0011AF78 /* IMG_0111.jpg */,
+				EFB86F4520C0D6CE0011AF78 /* IMG_0105.jpg */,
+				EFB86F4620C0D6CE0011AF78 /* IMG_0104.jpg */,
+				EFB86F4720C0D6CE0011AF78 /* IMG_0110.jpg */,
+				EFB86F4820C0D6CE0011AF78 /* IMG_0070.jpg */,
+				EFB86F4920C0D6CE0011AF78 /* IMG_0064.jpg */,
+				EFB86F4A20C0D6CE0011AF78 /* IMG_0099.jpg */,
+				EFB86F4B20C0D6CE0011AF78 /* IMG_0072.jpg */,
+				EFB86F4C20C0D6CE0011AF78 /* IMG_0066.jpg */,
+				EFB86F4D20C0D6CE0011AF78 /* IMG_0106.jpg */,
+				EFB86F4E20C0D6CE0011AF78 /* IMG_0112.jpg */,
+				EFB86F4F20C0D6CE0011AF78 /* IMG_0113.jpg */,
+				EFB86F5020C0D6CE0011AF78 /* IMG_0107.jpg */,
+				EFB86F5120C0D6CE0011AF78 /* IMG_0067.jpg */,
+				EFB86F5220C0D6CE0011AF78 /* IMG_0073.jpg */,
+				EFB86F5320C0D6CE0011AF78 /* IMG_0098.jpg */,
+				EFB86F5420C0D6CE0011AF78 /* IMG_0095.jpg */,
+				EFB86F5520C0D6CE0011AF78 /* IMG_0081.jpg */,
+				EFB86F5620C0D6CE0011AF78 /* IMG_0122.jpg */,
+				EFB86F5720C0D6CE0011AF78 /* IMG_0123.jpg */,
+				EFB86F5820C0D6CE0011AF78 /* IMG_0080.jpg */,
+				EFB86F5920C0D6CE0011AF78 /* IMG_0094.jpg */,
+				EFB86F5A20C0D6CE0011AF78 /* IMG_0082.jpg */,
+				EFB86F5B20C0D6CE0011AF78 /* IMG_0096.jpg */,
+				EFB86F5C20C0D6CE0011AF78 /* IMG_0069.jpg */,
+				EFB86F5D20C0D6CE0011AF78 /* IMG_0121.jpg */,
+				EFB86F5E20C0D6CE0011AF78 /* IMG_0109.jpg */,
+				EFB86F5F20C0D6CE0011AF78 /* IMG_0108.jpg */,
+				EFB86F6020C0D6CE0011AF78 /* IMG_0120.jpg */,
+				EFB86F6120C0D6CE0011AF78 /* IMG_0068.jpg */,
+				EFB86F6220C0D6CE0011AF78 /* IMG_0097.jpg */,
+				EFB86F6320C0D6CE0011AF78 /* IMG_0083.jpg */,
+				EFB86F6420C0D6CE0011AF78 /* IMG_0087.jpg */,
+				EFB86F6520C0D6CE0011AF78 /* IMG_0093.jpg */,
+				EFB86F6620C0D6CE0011AF78 /* IMG_0118.jpg */,
+				EFB86F6720C0D6CE0011AF78 /* IMG_0124.jpg */,
+				EFB86F6820C0D6CE0011AF78 /* IMG_0125.jpg */,
+				EFB86F6920C0D6CE0011AF78 /* IMG_0119.jpg */,
+				EFB86F6A20C0D6CE0011AF78 /* IMG_0079.jpg */,
+				EFB86F6B20C0D6CE0011AF78 /* IMG_0092.jpg */,
+				EFB86F6C20C0D6CE0011AF78 /* IMG_0086.jpg */,
+				EFB86F6D20C0D6CE0011AF78 /* IMG_0090.jpg */,
+				EFB86F6E20C0D6CE0011AF78 /* IMG_0084.jpg */,
+				EFB86F6F20C0D6CE0011AF78 /* IMG_0127.jpg */,
+				EFB86F7020C0D6CE0011AF78 /* IMG_0085.jpg */,
+				EFB86F7120C0D6CE0011AF78 /* IMG_0091.jpg */,
+				EFB86F7220C0D6CE0011AF78 /* IMG_0022.jpg */,
+				EFB86F7320C0D6CE0011AF78 /* IMG_0033.jpg */,
+				EFB86F7420C0D6CE0011AF78 /* IMG_0032.jpg */,
+				EFB86F7520C0D6CE0011AF78 /* IMG_0018.jpg */,
+				EFB86F7620C0D6CE0011AF78 /* IMG_0030.jpg */,
+				EFB86F7720C0D6CE0011AF78 /* IMG_0031.jpg */,
+			);
+			path = img_upload;
+			sourceTree = "<group>";
+		};
+		EFB86FB020C0D6CF0011AF78 /* logCheckFail */ = {
+			isa = PBXGroup;
+			children = (
+				EFB86FB120C0D6CF0011AF78 /* saimTransactinLog20180506.log */,
+				EFB86FB220C0D6CF0011AF78 /* saimTransactinLog20180512.log */,
+				EFB86FB320C0D6CF0011AF78 /* saimTransactinLog20180513.log */,
+				EFB86FB420C0D6CF0011AF78 /* saimTransactinLog20180507.log */,
+				EFB86FB520C0D6CF0011AF78 /* saimTransactinLog20180511.log */,
+				EFB86FB620C0D6CF0011AF78 /* saimTransactinLog20180505.log */,
+				EFB86FB720C0D6CF0011AF78 /* saimTransactinLog20180504.log */,
+				EFB86FB820C0D6CF0011AF78 /* saimTransactinLog20180510.log */,
+				EFB86FB920C0D6CF0011AF78 /* saimTransactinLog20180528.log */,
+				EFB86FBA20C0D6CF0011AF78 /* saimTransactinLog20180514.log */,
+				EFB86FBB20C0D6CF0011AF78 /* saimTransactinLog20180501.log */,
+				EFB86FBC20C0D6CF0011AF78 /* saimTransactinLog20180515.log */,
+				EFB86FBD20C0D6CF0011AF78 /* saimTransactinLog20180529.log */,
+				EFB86FBE20C0D6CF0011AF78 /* saimTransactinLog20180503.log */,
+				EFB86FBF20C0D6CF0011AF78 /* saimTransactinLog20180517.log */,
+				EFB86FC020C0D6CF0011AF78 /* saimTransactinLog20180516.log */,
+				EFB86FC120C0D6CF0011AF78 /* saimTransactinLog20180502.log */,
+				EFB86FC220C0D6CF0011AF78 /* saimTransactinLog20180527.log */,
+				EFB86FC320C0D6CF0011AF78 /* saimTransactinLog20180526.log */,
+				EFB86FC420C0D6CF0011AF78 /* saimTransactinLog20180530.log */,
+				EFB86FC520C0D6CF0011AF78 /* saimTransactinLog20180524.log */,
+				EFB86FC620C0D6CF0011AF78 /* saimTransactinLog20180518.log */,
+				EFB86FC720C0D6CF0011AF78 /* saimTransactinLog20180519.log */,
+				EFB86FC820C0D6CF0011AF78 /* saimTransactinLog20180525.log */,
+				EFB86FC920C0D6CF0011AF78 /* saimTransactinLog20180509.log */,
+				EFB86FCA20C0D6CF0011AF78 /* saimTransactinLog20180521.log */,
+				EFB86FCB20C0D6CF0011AF78 /* saimTransactinLog20180520.log */,
+				EFB86FCC20C0D6CF0011AF78 /* saimTransactinLog20180508.log */,
+				EFB86FCD20C0D6CF0011AF78 /* saimTransactinLog20180522.log */,
+				EFB86FCE20C0D6CF0011AF78 /* saimTransactinLog20180523.log */,
+			);
+			path = logCheckFail;
+			sourceTree = "<group>";
+		};
+		EFB86FEA20C0D6CF0011AF78 /* outside folder */ = {
+			isa = PBXGroup;
+			children = (
+				EFB86FEB20C0D6CF0011AF78 /* sendEmail.php */,
+				EFB86FEC20C0D6CF0011AF78 /* generateqrcode.php */,
+			);
+			path = "outside folder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,9 +1491,403 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB870E020C0D6CF0011AF78 /* IMG_0095.jpg in Resources */,
+				EFB8710720C0D6CF0011AF78 /* SAIMProductCategory1Delete.php in Resources */,
+				EFB8717020C0D6D00011AF78 /* SAIMPostCustomerDelete.php in Resources */,
+				EFB8712120C0D6D00011AF78 /* SAIMMemberAndPointGet.php in Resources */,
+				EFB8703520C0D6CF0011AF78 /* error test in Resources */,
+				EFB870A020C0D6CF0011AF78 /* IMG_0022.jpg in Resources */,
+				EFB8715820C0D6D00011AF78 /* saimTransactinLog20180522.log in Resources */,
+				EFB8713720C0D6D00011AF78 /* SAIMProductionOrderInsert.php in Resources */,
+				EFB8710A20C0D6CF0011AF78 /* ~$DorotaQRCode20171208.xls in Resources */,
+				EFB8706C20C0D6CF0011AF78 /* IMG_0071.jpg in Resources */,
+				EFB870AE20C0D6CF0011AF78 /* SAIMRewardProgramGet.php in Resources */,
+				EFB8706720C0D6CF0011AF78 /* IMG_0101.jpg in Resources */,
+				EFB8702320C0D6CF0011AF78 /* ck.pem in Resources */,
+				EFB86FF420C0D6CF0011AF78 /* receipt.html in Resources */,
+				EFB8701420C0D6CF0011AF78 /* index.php in Resources */,
+				EFB8701D20C0D6CF0011AF78 /* SAIMEventGet.php in Resources */,
+				EFB870D220C0D6CF0011AF78 /* IMG_0104.jpg in Resources */,
+				EFB8703A20C0D6CF0011AF78 /* ck.pem in Resources */,
+				EFB8703F20C0D6CF0011AF78 /* saimTransactinLog20180407.log in Resources */,
+				EFB870FC20C0D6CF0011AF78 /* IMG_0085.jpg in Resources */,
+				EFB870AA20C0D6CF0011AF78 /* SAIMAccountInventoryInsert.php in Resources */,
+				EFB8704B20C0D6CF0011AF78 /* SAIMProductionOrderDelete.php in Resources */,
+				EFB8708E20C0D6CF0011AF78 /* IMG_0087.jpg in Resources */,
+				EFB870F920C0D6CF0011AF78 /* IMG_0090.jpg in Resources */,
+				EFB870B020C0D6CF0011AF78 /* createQRCodeFileTest23.php in Resources */,
+				EFB8704520C0D6CF0011AF78 /* Certificates.p12 in Resources */,
+				EFB8708620C0D6CF0011AF78 /* IMG_0135.jpg in Resources */,
+				EFB86FF620C0D6CF0011AF78 /* SAIMReceiptProductItemPreOrder.php in Resources */,
+				EFB8717420C0D6D00011AF78 /* SAIMSettingDeviceTokenUpdate.php in Resources */,
+				EFB8711320C0D6CF0011AF78 /* uploadPhoto.php in Resources */,
+				EFB8702C20C0D6CF0011AF78 /* SAIMPostCustomerInsert.php in Resources */,
+				EFB870A620C0D6CF0011AF78 /* IMG_0031.jpg in Resources */,
+				EFB86FFC20C0D6CF0011AF78 /* saimTransactinLog20180315.log in Resources */,
+				EFB8713E20C0D6D00011AF78 /* saimTransactinLog20180513.log in Resources */,
+				EFB8702E20C0D6CF0011AF78 /* SAIMProductDeleteFromEvent.php in Resources */,
+				EFB8713B20C0D6D00011AF78 /* SAIMColorInsert.php in Resources */,
+				EFB8704920C0D6CF0011AF78 /* testvariable.php in Resources */,
+				EFB870C220C0D6CF0011AF78 /* IMG_0116.jpg in Resources */,
+				EFB8714F20C0D6D00011AF78 /* saimTransactinLog20180530.log in Resources */,
+				EFB8710C20C0D6CF0011AF78 /* SAIMDeviceInsert.php in Resources */,
+				EFB870AF20C0D6CF0011AF78 /* SAIMAccountReceiptHistoryGet.php in Resources */,
+				EFB8701520C0D6CF0011AF78 /* SAIMProductSizeUpdate.php in Resources */,
+				EFB8712620C0D6D00011AF78 /* urlinsertprefix.php in Resources */,
+				EFB8715F20C0D6D00011AF78 /* analytics ดรพหะ.txt in Resources */,
+				EFB8701A20C0D6CF0011AF78 /* SAIMUserAccountInsert.php in Resources */,
+				EFB8716D20C0D6D00011AF78 /* SAIMWriteLog.php in Resources */,
+				EFB8706120C0D6CF0011AF78 /* IMG_0076.jpg in Resources */,
+				EFB8707A20C0D6CF0011AF78 /* IMG_0067.jpg in Resources */,
+				EFB8705820C0D6CF0011AF78 /* IMG_0164.jpg in Resources */,
+				EFB8716920C0D6D00011AF78 /* compare3.php in Resources */,
+				EFB8712220C0D6D00011AF78 /* SAIMEventUpdate.php in Resources */,
+				EFB8714620C0D6D00011AF78 /* saimTransactinLog20180501.log in Resources */,
+				EFB8712420C0D6D00011AF78 /* php_error.log in Resources */,
+				EFB870FB20C0D6CF0011AF78 /* IMG_0127.jpg in Resources */,
+				EFB870B520C0D6CF0011AF78 /* createtabletest in Resources */,
+				EFB870CF20C0D6CF0011AF78 /* IMG_0071.jpg in Resources */,
+				EFB8704E20C0D6CF0011AF78 /* IMG_0028.jpg in Resources */,
+				EFB8709620C0D6CF0011AF78 /* IMG_0092.jpg in Resources */,
+				EFB8716420C0D6D00011AF78 /* compare2.php in Resources */,
+				EFB8701C20C0D6CF0011AF78 /* SAIMProductCategory1Insert.php in Resources */,
+				EFB8710D20C0D6CF0011AF78 /* SAIMSalesDetailGet.php in Resources */,
+				EFB870CD20C0D6CF0011AF78 /* IMG_0061.jpg in Resources */,
+				EFB8707D20C0D6CF0011AF78 /* IMG_0095.jpg in Resources */,
+				EFB8703D20C0D6CF0011AF78 /* SAIMUserAccountEventDeleteThenMultipleInsert.php in Resources */,
+				EFB870C920C0D6CF0011AF78 /* IMG_0100.jpg in Resources */,
+				EFB86FF720C0D6CF0011AF78 /* blankSignature2.png in Resources */,
+				EFB8703720C0D6CF0011AF78 /* SAIMRewardProgramInsert.php in Resources */,
+				EFB8709C20C0D6CF0011AF78 /* IMG_0132.jpg in Resources */,
+				EFB8700920C0D6CF0011AF78 /* SAIMEventDelete.php in Resources */,
+				EFB8711520C0D6D00011AF78 /* receipt copy.html in Resources */,
+				EFB8708220C0D6CF0011AF78 /* IMG_0094.jpg in Resources */,
+				EFB870F320C0D6CF0011AF78 /* IMG_0124.jpg in Resources */,
+				EFB8709420C0D6CF0011AF78 /* IMG_0119.jpg in Resources */,
+				EFB870C520C0D6CF0011AF78 /* IMG_0076.jpg in Resources */,
+				EFB8705220C0D6CF0011AF78 /* IMG_0017.jpg in Resources */,
+				EFB8714C20C0D6D00011AF78 /* saimTransactinLog20180502.log in Resources */,
+				EFB8707820C0D6CF0011AF78 /* IMG_0113.jpg in Resources */,
+				EFB870B120C0D6CF0011AF78 /* SAIMAccountReceiptHistoryDetailGet.php in Resources */,
 				EFB86E3C20C0D6B80011AF78 /* LaunchScreen.storyboard in Resources */,
+				EFB8715020C0D6D00011AF78 /* saimTransactinLog20180524.log in Resources */,
+				EFB8705620C0D6CF0011AF78 /* IMG_0013.jpg in Resources */,
+				EFB8712D20C0D6D00011AF78 /* SAIMEventCostInsert.php in Resources */,
+				EFB870DC20C0D6CF0011AF78 /* IMG_0107.jpg in Resources */,
+				EFB8716A20C0D6D00011AF78 /* SAIMRewardProgramDelete.php in Resources */,
+				EFB8710020C0D6CF0011AF78 /* IMG_0032.jpg in Resources */,
+				EFB8716520C0D6D00011AF78 /* SAIMCompareInventoryNotMatchInsert.php in Resources */,
+				EFB8717B20C0D6D00011AF78 /* SAIMPushSyncSync.php in Resources */,
+				EFB8710920C0D6CF0011AF78 /* SAIMAccountInventoryAddedGet.php in Resources */,
+				EFB8707C20C0D6CF0011AF78 /* IMG_0098.jpg in Resources */,
+				EFB8710120C0D6CF0011AF78 /* IMG_0018.jpg in Resources */,
+				EFB8710220C0D6CF0011AF78 /* IMG_0030.jpg in Resources */,
+				EFB8714720C0D6D00011AF78 /* saimTransactinLog20180515.log in Resources */,
+				EFB8709820C0D6CF0011AF78 /* IMG_0090.jpg in Resources */,
+				EFB870A720C0D6CF0011AF78 /* SAIMReceiptProductItemUpdateCMIn.php in Resources */,
+				EFB8708720C0D6CF0011AF78 /* IMG_0121.jpg in Resources */,
+				EFB8709020C0D6CF0011AF78 /* IMG_0118.jpg in Resources */,
+				EFB8713620C0D6D00011AF78 /* SAIMAccountReceiptGet.php in Resources */,
+				EFB8705120C0D6CF0011AF78 /* IMG_0015.jpg in Resources */,
+				EFB86FF520C0D6CF0011AF78 /* contentpush.php in Resources */,
+				EFB870E820C0D6CF0011AF78 /* IMG_0069.jpg in Resources */,
+				EFB8709120C0D6CF0011AF78 /* IMG_0124.jpg in Resources */,
+				EFB8705C20C0D6CF0011AF78 /* IMG_0103.jpg in Resources */,
+				EFB8701020C0D6CF0011AF78 /* SAIMCashAllocationInsert.php in Resources */,
+				EFB8715520C0D6D00011AF78 /* saimTransactinLog20180521.log in Resources */,
+				EFB870B720C0D6CF0011AF78 /* saimTransactinLog20171230.log in Resources */,
+				EFB8706220C0D6CF0011AF78 /* IMG_0089.jpg in Resources */,
+				EFB8708C20C0D6CF0011AF78 /* IMG_0097.jpg in Resources */,
+				EFB8716B20C0D6D00011AF78 /* SAIMCredentialsValidate.php in Resources */,
+				EFB870E220C0D6CF0011AF78 /* IMG_0122.jpg in Resources */,
+				EFB8701220C0D6CF0011AF78 /* SAIMProductSalesUpdateCostMultiple.php in Resources */,
+				EFB8714B20C0D6D00011AF78 /* saimTransactinLog20180516.log in Resources */,
+				EFB870F820C0D6CF0011AF78 /* IMG_0086.jpg in Resources */,
+				EFB8704820C0D6CF0011AF78 /* SAIMProductSalesSetInsert.php in Resources */,
+				EFB8703E20C0D6CF0011AF78 /* SAIMCustomerReceiptUpdatePostCustomerID.php in Resources */,
+				EFB870FF20C0D6CF0011AF78 /* IMG_0033.jpg in Resources */,
+				EFB870E420C0D6CF0011AF78 /* IMG_0080.jpg in Resources */,
+				EFB870DB20C0D6CF0011AF78 /* IMG_0113.jpg in Resources */,
+				EFB8714A20C0D6D00011AF78 /* saimTransactinLog20180517.log in Resources */,
+				EFB8704020C0D6CF0011AF78 /* SAIMReceiptAndReceiptProductItemDelete.php in Resources */,
+				EFB870F620C0D6CF0011AF78 /* IMG_0079.jpg in Resources */,
+				EFB870B620C0D6CF0011AF78 /* SAIMProductSizeDelete.php in Resources */,
+				EFB86FFB20C0D6CF0011AF78 /* SAIMReceiptProductItemAndProductUpdate.php in Resources */,
+				EFB8717320C0D6D00011AF78 /* SAIMAccountReceiptHistorySummaryGet.php in Resources */,
+				EFB8717A20C0D6D00011AF78 /* SAIMProductNameUpdate.php in Resources */,
+				EFB870F520C0D6CF0011AF78 /* IMG_0119.jpg in Resources */,
+				EFB8704C20C0D6CF0011AF78 /* SAIMColorDelete.php in Resources */,
+				EFB8716120C0D6D00011AF78 /* SAIMProductStatusUpdateByProductID.php in Resources */,
+				EFB8708320C0D6CF0011AF78 /* IMG_0082.jpg in Resources */,
+				EFB8713820C0D6D00011AF78 /* SAIMUserAccountDeviceTokenUpdate.php in Resources */,
+				EFB870D320C0D6CF0011AF78 /* IMG_0110.jpg in Resources */,
+				EFB8700520C0D6CF0011AF78 /* SAIMAccountReceiptHistoryDelete.php in Resources */,
+				EFB8700320C0D6CF0011AF78 /* SAIMUserAccountUpdateMenuExtra0.php in Resources */,
+				EFB8703020C0D6CF0011AF78 /* testdate.php in Resources */,
+				EFB870E520C0D6CF0011AF78 /* IMG_0094.jpg in Resources */,
+				EFB8709B20C0D6CF0011AF78 /* IMG_0133.jpg in Resources */,
+				EFB870BA20C0D6CF0011AF78 /* IMG_0017.jpg in Resources */,
+				EFB8710420C0D6CF0011AF78 /* SAIMAccountReceiptByPeriodGet.php in Resources */,
+				EFB8707720C0D6CF0011AF78 /* IMG_0112.jpg in Resources */,
+				EFB8711120C0D6CF0011AF78 /* SAIMProductSalesUpdate.php in Resources */,
+				EFB8712320C0D6D00011AF78 /* SAIMMasterGetTest.php in Resources */,
+				EFB8715B20C0D6D00011AF78 /* SAIMAccountInventorySummaryGet.php in Resources */,
+				EFB86FFD20C0D6CF0011AF78 /* sendEmail.php in Resources */,
+				EFB8703620C0D6CF0011AF78 /* createQRCodeFileTest24.php in Resources */,
+				EFB8705B20C0D6CF0011AF78 /* IMG_0063.jpg in Resources */,
+				EFB870C120C0D6CF0011AF78 /* IMG_0117.jpg in Resources */,
+				EFB8716020C0D6D00011AF78 /* createQRCodeFileDorota.php in Resources */,
+				EFB870E920C0D6CF0011AF78 /* IMG_0121.jpg in Resources */,
+				EFB8709720C0D6CF0011AF78 /* IMG_0086.jpg in Resources */,
+				EFB8711F20C0D6D00011AF78 /* createQRCodeFileTesting.php in Resources */,
+				EFB8709220C0D6CF0011AF78 /* IMG_0125.jpg in Resources */,
+				EFB8713A20C0D6D00011AF78 /* SAIMImageRunningIDInsert.php in Resources */,
+				EFB8711E20C0D6D00011AF78 /* saimTransactinLog20180409.log in Resources */,
+				EFB8712920C0D6D00011AF78 /* SAIMSalesByChannelGet.php in Resources */,
+				EFB8706520C0D6CF0011AF78 /* IMG_0100.jpg in Resources */,
+				EFB8715920C0D6D00011AF78 /* saimTransactinLog20180523.log in Resources */,
+				EFB8716720C0D6D00011AF78 /* SAIMProductCategory2Update.php in Resources */,
+				EFB8702420C0D6CF0011AF78 /* SAIMProductSalesUpdateCost.php in Resources */,
+				EFB86FF920C0D6CF0011AF78 /* SAIMProductDelete.php in Resources */,
+				EFB8715320C0D6D00011AF78 /* saimTransactinLog20180525.log in Resources */,
+				EFB8710E20C0D6CF0011AF78 /* oneSignature2.png in Resources */,
+				EFB8702920C0D6CF0011AF78 /* SAIMRewardProgramUpdate.php in Resources */,
+				EFB8709320C0D6CF0011AF78 /* IMG_0131.jpg in Resources */,
+				EFB870AB20C0D6CF0011AF78 /* viewSAIM.php in Resources */,
+				EFB870C320C0D6CF0011AF78 /* IMG_0102.jpg in Resources */,
+				EFB870E320C0D6CF0011AF78 /* IMG_0123.jpg in Resources */,
+				EFB8707E20C0D6CF0011AF78 /* IMG_0081.jpg in Resources */,
+				EFB870CE20C0D6CF0011AF78 /* IMG_0065.jpg in Resources */,
+				EFB870FA20C0D6CF0011AF78 /* IMG_0084.jpg in Resources */,
+				EFB8705320C0D6CF0011AF78 /* IMG_0163.jpg in Resources */,
+				EFB8713320C0D6D00011AF78 /* firstpage.php in Resources */,
+				EFB870BC20C0D6CF0011AF78 /* IMG_0013.jpg in Resources */,
+				EFB8700220C0D6CF0011AF78 /* SAIMMasterGet.php in Resources */,
+				EFB8706420C0D6CF0011AF78 /* IMG_0114.jpg in Resources */,
+				EFB870A320C0D6CF0011AF78 /* IMG_0032.jpg in Resources */,
+				EFB8705520C0D6CF0011AF78 /* IMG_0006.jpg in Resources */,
+				EFB8701820C0D6CF0011AF78 /* SAIMProductionOrderAddedGet.php in Resources */,
+				EFB870C020C0D6CF0011AF78 /* IMG_0103.jpg in Resources */,
+				EFB8708020C0D6CF0011AF78 /* IMG_0123.jpg in Resources */,
+				EFB8711220C0D6CF0011AF78 /* DorotaQRCode25601209_005226.xls in Resources */,
+				EFB8712020C0D6D00011AF78 /* SAIMProductSalesInsert.php in Resources */,
+				EFB870FD20C0D6CF0011AF78 /* IMG_0091.jpg in Resources */,
+				EFB8701320C0D6CF0011AF78 /* SAIMReceiptProductItemUnpostCM.php in Resources */,
+				EFB870A820C0D6CF0011AF78 /* SAIMProductTransferGet.php in Resources */,
+				EFB8711820C0D6D00011AF78 /* DorotaQRCode20171208.xls in Resources */,
+				EFB8707220C0D6CF0011AF78 /* IMG_0064.jpg in Resources */,
+				EFB870E120C0D6CF0011AF78 /* IMG_0081.jpg in Resources */,
+				EFB870C620C0D6CF0011AF78 /* IMG_0089.jpg in Resources */,
+				EFB870AD20C0D6CF0011AF78 /* SAIMProductSalesSetUpdate.php in Resources */,
+				EFB8703920C0D6CF0011AF78 /* CertificateSigningRequest.certSigningRequest in Resources */,
+				EFB870E720C0D6CF0011AF78 /* IMG_0096.jpg in Resources */,
+				EFB86FF820C0D6CF0011AF78 /* SAIMSalesSummaryByPeriodGet.php in Resources */,
+				EFB870EC20C0D6CF0011AF78 /* IMG_0120.jpg in Resources */,
+				EFB870CB20C0D6CF0011AF78 /* IMG_0115.jpg in Resources */,
+				EFB8706D20C0D6CF0011AF78 /* IMG_0111.jpg in Resources */,
+				EFB8713120C0D6D00011AF78 /* SAIMProductSalesUpdateDetail.php in Resources */,
+				EFB8706320C0D6CF0011AF78 /* IMG_0074.jpg in Resources */,
+				EFB8716C20C0D6D00011AF78 /* SAIMProductNameInsert.php in Resources */,
+				EFB8707320C0D6CF0011AF78 /* IMG_0099.jpg in Resources */,
+				EFB8703220C0D6CF0011AF78 /* SAIMCustomerReceiptUpdate.php in Resources */,
+				EFB8707520C0D6CF0011AF78 /* IMG_0066.jpg in Resources */,
+				EFB8704320C0D6CF0011AF78 /* CertificateSigningRequest.certSigningRequest in Resources */,
+				EFB8716820C0D6D00011AF78 /* SAIMUserAccountUpdateMenuExtra.php in Resources */,
+				EFB8713420C0D6D00011AF78 /* SAIMReceiptProductItemPreOrderEventID.php in Resources */,
+				EFB870EF20C0D6CF0011AF78 /* IMG_0083.jpg in Resources */,
+				EFB870C420C0D6CF0011AF78 /* IMG_0062.jpg in Resources */,
+				EFB8703B20C0D6CF0011AF78 /* Certificates.p12 in Resources */,
+				EFB870EA20C0D6CF0011AF78 /* IMG_0109.jpg in Resources */,
+				EFB8712520C0D6D00011AF78 /* SAIMCompareInventoryInsert.php in Resources */,
+				EFB8701620C0D6CF0011AF78 /* firstpageeng.php in Resources */,
+				EFB8708920C0D6CF0011AF78 /* IMG_0108.jpg in Resources */,
+				EFB8700020C0D6CF0011AF78 /* SAIMSettingUpdate.php in Resources */,
+				EFB870D020C0D6CF0011AF78 /* IMG_0111.jpg in Resources */,
+				EFB8711D20C0D6D00011AF78 /* SAIMProductInsert.php in Resources */,
+				EFB8705920C0D6CF0011AF78 /* IMG_0088.jpg in Resources */,
+				EFB8705420C0D6CF0011AF78 /* IMG_0162.jpg in Resources */,
+				EFB8711720C0D6D00011AF78 /* storytelling in Resources */,
+				EFB8709D20C0D6CF0011AF78 /* IMG_0085.jpg in Resources */,
+				EFB870D620C0D6CF0011AF78 /* IMG_0099.jpg in Resources */,
+				EFB870F220C0D6CF0011AF78 /* IMG_0118.jpg in Resources */,
+				EFB8707F20C0D6CF0011AF78 /* IMG_0122.jpg in Resources */,
+				EFB8700B20C0D6CF0011AF78 /* Sales.php in Resources */,
+				EFB870B820C0D6CF0011AF78 /* IMG_0028.jpg in Resources */,
+				EFB8702520C0D6CF0011AF78 /* saimTransactinLog20180405.log in Resources */,
+				EFB8712A20C0D6D00011AF78 /* urlupdateprefix.php in Resources */,
+				EFB8711A20C0D6D00011AF78 /* SAIMProductEventIDUpdate.php in Resources */,
+				EFB8702620C0D6CF0011AF78 /* SAIMProductCategory2Delete.php in Resources */,
+				EFB8708A20C0D6CF0011AF78 /* IMG_0120.jpg in Resources */,
+				EFB870DF20C0D6CF0011AF78 /* IMG_0098.jpg in Resources */,
+				EFB870F020C0D6CF0011AF78 /* IMG_0087.jpg in Resources */,
+				EFB8716F20C0D6D00011AF78 /* createQRCodeFileUpdating.php in Resources */,
+				EFB8704720C0D6CF0011AF78 /* SAIMAccountReceiptHistorySummaryByDateGet.php in Resources */,
+				EFB8716E20C0D6D00011AF78 /* reviewtest.html in Resources */,
+				EFB8714320C0D6D00011AF78 /* saimTransactinLog20180510.log in Resources */,
+				EFB870EB20C0D6CF0011AF78 /* IMG_0108.jpg in Resources */,
+				EFB8700720C0D6CF0011AF78 /* PHPMailerAutoload.php in Resources */,
+				EFB8713920C0D6D00011AF78 /* downloadFile.php in Resources */,
+				EFB8702020C0D6CF0011AF78 /* testcon.php in Resources */,
+				EFB8703420C0D6CF0011AF78 /* SAIMProductNameDelete.php in Resources */,
+				EFB8702A20C0D6CF0011AF78 /* SAIMCustomMadeUpdate.php in Resources */,
+				EFB8713220C0D6D00011AF78 /* SAIMAccountReceiptInsert.php in Resources */,
+				EFB8714820C0D6D00011AF78 /* saimTransactinLog20180529.log in Resources */,
+				EFB8700A20C0D6CF0011AF78 /* SAIMItemRunningIDInsert.php in Resources */,
+				EFB8716220C0D6D00011AF78 /* SAIMPostCustomerByReceiptIDGet.php in Resources */,
+				EFB870F120C0D6CF0011AF78 /* IMG_0093.jpg in Resources */,
+				EFB870A520C0D6CF0011AF78 /* IMG_0030.jpg in Resources */,
+				EFB86FFF20C0D6CF0011AF78 /* SAIMReceiptProductItemUnpost.php in Resources */,
+				EFB8700420C0D6CF0011AF78 /* SAIMCustomerReceiptUpdateTrackingNo.php in Resources */,
+				EFB8711420C0D6D00011AF78 /* SAIMEventInsert.php in Resources */,
 				EFB86E3920C0D6B80011AF78 /* Assets.xcassets in Resources */,
+				EFB870BF20C0D6CF0011AF78 /* IMG_0063.jpg in Resources */,
+				EFB870A420C0D6CF0011AF78 /* IMG_0018.jpg in Resources */,
+				EFB8708820C0D6CF0011AF78 /* IMG_0109.jpg in Resources */,
+				EFB8702820C0D6CF0011AF78 /* urlinsertlistprefix.php in Resources */,
+				EFB8702B20C0D6CF0011AF78 /* ProductItem14.xls in Resources */,
+				EFB870A920C0D6CF0011AF78 /* SAIMProductEventIDUpdateByProductID.php in Resources */,
+				EFB86FFA20C0D6CF0011AF78 /* SAIMProductSalesDelete.php in Resources */,
+				EFB8716320C0D6D00011AF78 /* testJson.php in Resources */,
+				EFB870B220C0D6CF0011AF78 /* reviewtest2.html in Resources */,
+				EFB8705F20C0D6CF0011AF78 /* IMG_0102.jpg in Resources */,
+				EFB8712F20C0D6D00011AF78 /* SAIMColorUpdate.php in Resources */,
+				EFB870CA20C0D6CF0011AF78 /* IMG_0101.jpg in Resources */,
+				EFB8710B20C0D6CF0011AF78 /* allpageinsideeng.php in Resources */,
+				EFB8709F20C0D6CF0011AF78 /* IMG_0155.jpg in Resources */,
+				EFB8715220C0D6D00011AF78 /* saimTransactinLog20180519.log in Resources */,
+				EFB8709920C0D6CF0011AF78 /* IMG_0084.jpg in Resources */,
+				EFB8711620C0D6D00011AF78 /* SAIMCompareInventoryUpdate.php in Resources */,
+				EFB8708D20C0D6CF0011AF78 /* IMG_0083.jpg in Resources */,
+				EFB8706920C0D6CF0011AF78 /* IMG_0075.jpg in Resources */,
+				EFB8710820C0D6CF0011AF78 /* dbConnect.php in Resources */,
+				EFB8700E20C0D6CF0011AF78 /* index.html in Resources */,
+				EFB8715D20C0D6D00011AF78 /* SAIMReceiptByMemberGet.php in Resources */,
+				EFB8710620C0D6CF0011AF78 /* SAIMUserAccountDelete.php in Resources */,
+				EFB8701E20C0D6CF0011AF78 /* SAIMReceiptUpdate.php in Resources */,
+				EFB8714420C0D6D00011AF78 /* saimTransactinLog20180528.log in Resources */,
+				EFB8702720C0D6CF0011AF78 /* blankSignature.png in Resources */,
+				EFB870C820C0D6CF0011AF78 /* IMG_0114.jpg in Resources */,
+				EFB8706A20C0D6CF0011AF78 /* IMG_0061.jpg in Resources */,
+				EFB870A120C0D6CF0011AF78 /* IMG_0156.jpg in Resources */,
+				EFB870BD20C0D6CF0011AF78 /* IMG_0088.jpg in Resources */,
+				EFB8714120C0D6D00011AF78 /* saimTransactinLog20180505.log in Resources */,
+				EFB8702220C0D6CF0011AF78 /* receiptdomain.html in Resources */,
+				EFB8714E20C0D6D00011AF78 /* saimTransactinLog20180526.log in Resources */,
+				EFB870BB20C0D6CF0011AF78 /* IMG_0006.jpg in Resources */,
+				EFB8703820C0D6CF0011AF78 /* SAIMReceiptProductItemPreOrderCM.php in Resources */,
+				EFB8703320C0D6CF0011AF78 /* generateSalesAllEvents.php in Resources */,
+				EFB870FE20C0D6CF0011AF78 /* IMG_0022.jpg in Resources */,
+				EFB8712B20C0D6D00011AF78 /* SAIMEmailQRCode.php in Resources */,
+				EFB8704620C0D6CF0011AF78 /* SAIMPushSyncUpdate.php in Resources */,
+				EFB8705A20C0D6CF0011AF78 /* IMG_0077.jpg in Resources */,
+				EFB8701720C0D6CF0011AF78 /* SAIMMasterGet.php in Resources */,
+				EFB8700C20C0D6CF0011AF78 /* SAIMUserAccountUpdate.php in Resources */,
+				EFB8704120C0D6CF0011AF78 /* testpush.php in Resources */,
+				EFB8707120C0D6CF0011AF78 /* IMG_0070.jpg in Resources */,
+				EFB86FFE20C0D6CF0011AF78 /* testJsonEncodeThai.php in Resources */,
+				EFB8707920C0D6CF0011AF78 /* IMG_0107.jpg in Resources */,
+				EFB8715620C0D6D00011AF78 /* saimTransactinLog20180520.log in Resources */,
+				EFB8717820C0D6D00011AF78 /* SAIMLoginInsert.php in Resources */,
+				EFB8700620C0D6CF0011AF78 /* SAIMProductStatusGet.php in Resources */,
+				EFB8709A20C0D6CF0011AF78 /* IMG_0127.jpg in Resources */,
+				EFB8714920C0D6D00011AF78 /* saimTransactinLog20180503.log in Resources */,
+				EFB8701920C0D6CF0011AF78 /* SAIMProductSalesMultipleUpdate.php in Resources */,
+				EFB8701B20C0D6CF0011AF78 /* SAIMCashAllocationUpdate.php in Resources */,
+				EFB8717520C0D6D00011AF78 /* sendEmail.php in Resources */,
+				EFB870EE20C0D6CF0011AF78 /* IMG_0097.jpg in Resources */,
 				EFB86E3720C0D6B60011AF78 /* Main.storyboard in Resources */,
+				EFB8700820C0D6CF0011AF78 /* SAIMPushSyncUpdateTimeSynced.php in Resources */,
+				EFB870D820C0D6CF0011AF78 /* IMG_0066.jpg in Resources */,
+				EFB870ED20C0D6CF0011AF78 /* IMG_0068.jpg in Resources */,
+				EFB870D920C0D6CF0011AF78 /* IMG_0106.jpg in Resources */,
+				EFB8701120C0D6CF0011AF78 /* SAIMPushSyncUpdateByDeviceToken.php in Resources */,
+				EFB8706020C0D6CF0011AF78 /* IMG_0062.jpg in Resources */,
+				EFB8704D20C0D6CF0011AF78 /* test1.php in Resources */,
+				EFB8712C20C0D6D00011AF78 /* saimTransactinLog20180321.log in Resources */,
+				EFB870D120C0D6CF0011AF78 /* IMG_0105.jpg in Resources */,
+				EFB870CC20C0D6CF0011AF78 /* IMG_0075.jpg in Resources */,
+				EFB8711B20C0D6D00011AF78 /* fail log.xlsx in Resources */,
+				EFB8710F20C0D6CF0011AF78 /* oneSignature3.png in Resources */,
+				EFB8703120C0D6CF0011AF78 /* วิธีการ Setup เริ่มต้น Package Private Hosting11.pdf in Resources */,
+				EFB8710520C0D6CF0011AF78 /* SAIMUserAccountUpdateCountNotSeen.php in Resources */,
+				EFB8715420C0D6D00011AF78 /* saimTransactinLog20180509.log in Resources */,
+				EFB8708120C0D6CF0011AF78 /* IMG_0080.jpg in Resources */,
+				EFB8705020C0D6CF0011AF78 /* IMG_0161.jpg in Resources */,
+				EFB8708F20C0D6CF0011AF78 /* IMG_0093.jpg in Resources */,
+				EFB8714020C0D6D00011AF78 /* saimTransactinLog20180511.log in Resources */,
+				EFB8700D20C0D6CF0011AF78 /* SAIMProductCategory1Update.php in Resources */,
+				EFB8713F20C0D6D00011AF78 /* saimTransactinLog20180507.log in Resources */,
+				EFB8714220C0D6D00011AF78 /* saimTransactinLog20180504.log in Resources */,
+				EFB8707420C0D6CF0011AF78 /* IMG_0072.jpg in Resources */,
+				EFB8705D20C0D6CF0011AF78 /* IMG_0117.jpg in Resources */,
+				EFB870B320C0D6CF0011AF78 /* downloadImage.php in Resources */,
+				EFB8707020C0D6CF0011AF78 /* IMG_0110.jpg in Resources */,
+				EFB8704420C0D6CF0011AF78 /* ck.pem in Resources */,
+				EFB8710320C0D6CF0011AF78 /* IMG_0031.jpg in Resources */,
+				EFB8708B20C0D6CF0011AF78 /* IMG_0068.jpg in Resources */,
+				EFB870DE20C0D6CF0011AF78 /* IMG_0073.jpg in Resources */,
+				EFB8717720C0D6D00011AF78 /* SAIMProductCategory2Insert.php in Resources */,
+				EFB8713520C0D6D00011AF78 /* SAIMAccountInventoryDelete.php in Resources */,
+				EFB870B420C0D6CF0011AF78 /* dburl20180217.zip in Resources */,
+				EFB8700F20C0D6CF0011AF78 /* SAIMSalesSummaryGet.php in Resources */,
+				EFB8707B20C0D6CF0011AF78 /* IMG_0073.jpg in Resources */,
+				EFB8704220C0D6CF0011AF78 /* SAIMUserAccountEventDelete.php in Resources */,
+				EFB8706B20C0D6CF0011AF78 /* IMG_0065.jpg in Resources */,
+				EFB8706E20C0D6CF0011AF78 /* IMG_0105.jpg in Resources */,
+				EFB8705E20C0D6CF0011AF78 /* IMG_0116.jpg in Resources */,
+				EFB8707620C0D6CF0011AF78 /* IMG_0106.jpg in Resources */,
+				EFB8705720C0D6CF0011AF78 /* IMG_0159.jpg in Resources */,
+				EFB8715A20C0D6D00011AF78 /* SAIMProductAndProductionOrderInsert.php in Resources */,
+				EFB8708520C0D6CF0011AF78 /* IMG_0069.jpg in Resources */,
+				EFB8701F20C0D6CF0011AF78 /* testsqlinjection.php in Resources */,
+				EFB8712720C0D6D00011AF78 /* jillSignature.png in Resources */,
+				EFB86FF320C0D6CF0011AF78 /* saimTransactinLog20180314.log in Resources */,
+				EFB8706620C0D6CF0011AF78 /* IMG_0129.jpg in Resources */,
+				EFB8702F20C0D6CF0011AF78 /* testRestartingTransaction.php in Resources */,
+				EFB8712820C0D6D00011AF78 /* Excel2007.php in Resources */,
+				EFB8713D20C0D6D00011AF78 /* saimTransactinLog20180512.log in Resources */,
+				EFB8714520C0D6D00011AF78 /* saimTransactinLog20180514.log in Resources */,
+				EFB870E620C0D6CF0011AF78 /* IMG_0082.jpg in Resources */,
+				EFB8716620C0D6D00011AF78 /* createQRCodeFile.php in Resources */,
+				EFB8702120C0D6CF0011AF78 /* SAIMProductSizeInsert.php in Resources */,
+				EFB870BE20C0D6CF0011AF78 /* IMG_0077.jpg in Resources */,
+				EFB8712E20C0D6D00011AF78 /* SAIMProductCostUpdate.php in Resources */,
+				EFB870C720C0D6CF0011AF78 /* IMG_0074.jpg in Resources */,
+				EFB8717620C0D6D00011AF78 /* generateqrcode.php in Resources */,
+				EFB8711020C0D6CF0011AF78 /* SAIMProductUpdate.php in Resources */,
+				EFB870D720C0D6CF0011AF78 /* IMG_0072.jpg in Resources */,
+				EFB8715120C0D6D00011AF78 /* saimTransactinLog20180518.log in Resources */,
+				EFB8702D20C0D6CF0011AF78 /* ProductItem15.xls in Resources */,
+				EFB8709E20C0D6CF0011AF78 /* IMG_0091.jpg in Resources */,
+				EFB8713C20C0D6D00011AF78 /* saimTransactinLog20180506.log in Resources */,
+				EFB870D420C0D6CF0011AF78 /* IMG_0070.jpg in Resources */,
+				EFB870B920C0D6CF0011AF78 /* IMG_0015.jpg in Resources */,
+				EFB8717220C0D6D00011AF78 /* analytics.txt in Resources */,
+				EFB8714D20C0D6D00011AF78 /* saimTransactinLog20180527.log in Resources */,
+				EFB8717120C0D6D00011AF78 /* compare1.php in Resources */,
+				EFB8715C20C0D6D00011AF78 /* saimTransactinLog20180525.log in Resources */,
+				EFB870F420C0D6CF0011AF78 /* IMG_0125.jpg in Resources */,
+				EFB870F720C0D6CF0011AF78 /* IMG_0092.jpg in Resources */,
+				EFB8717C20C0D6D00011AF78 /* testmail.php in Resources */,
+				EFB8711920C0D6D00011AF78 /* SAIMProductSalesDeleteProductNameID.php in Resources */,
+				EFB8715720C0D6D00011AF78 /* saimTransactinLog20180508.log in Resources */,
+				EFB8717920C0D6D00011AF78 /* allpageinside.php in Resources */,
+				EFB8704A20C0D6CF0011AF78 /* createQRCodeFile201612.php in Resources */,
+				EFB8713020C0D6D00011AF78 /* compare4.php in Resources */,
+				EFB8706820C0D6CF0011AF78 /* IMG_0115.jpg in Resources */,
+				EFB870D520C0D6CF0011AF78 /* IMG_0064.jpg in Resources */,
+				EFB8711C20C0D6D00011AF78 /* thankyou.php in Resources */,
+				EFB8706F20C0D6CF0011AF78 /* IMG_0104.jpg in Resources */,
+				EFB8709520C0D6CF0011AF78 /* IMG_0079.jpg in Resources */,
+				EFB870DD20C0D6CF0011AF78 /* IMG_0067.jpg in Resources */,
+				EFB8715E20C0D6D00011AF78 /* SAIMProductSalesSetDelete.php in Resources */,
+				EFB8703C20C0D6CF0011AF78 /* SAIMTransferHistoryGet.php in Resources */,
+				EFB870AC20C0D6CF0011AF78 /* oneSignature.png in Resources */,
+				EFB8704F20C0D6CF0011AF78 /* IMG_0160.jpg in Resources */,
+				EFB870DA20C0D6CF0011AF78 /* IMG_0112.jpg in Resources */,
+				EFB870A220C0D6CF0011AF78 /* IMG_0033.jpg in Resources */,
+				EFB8700120C0D6CF0011AF78 /* SAIMReceiptAndProductBuyInsert.php in Resources */,
+				EFB8708420C0D6CF0011AF78 /* IMG_0096.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
