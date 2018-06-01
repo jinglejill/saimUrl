@@ -1,0 +1,23 @@
+CREATE TABLE `producttransfer` (
+ `ProductID` varchar(6) NOT NULL,
+ `ProductCode` varchar(22) NOT NULL,
+ `ProductCategory2` varchar(2) NOT NULL,
+ `ProductCategory1` varchar(2) NOT NULL,
+ `ProductName` varchar(2) NOT NULL,
+ `Color` varchar(2) NOT NULL,
+ `Size` varchar(4) NOT NULL,
+ `ManufacturingDate` date DEFAULT NULL,
+ `TransferHistoryID` int(11) NOT NULL,
+ `Remark` varchar(100) NOT NULL,
+ `ModifiedDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+ PRIMARY KEY (`ProductID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+CREATE TABLE `transferhistory` (
+ `TransferHistoryID` int(11) NOT NULL AUTO_INCREMENT,
+ `EventID` int(11) NOT NULL,
+ `EventIDDestination` int(11) NOT NULL,
+ `TransferDate` datetime NOT NULL,
+ `ModifiedDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+ PRIMARY KEY (`TransferHistoryID`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8
